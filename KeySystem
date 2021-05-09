@@ -17,6 +17,7 @@ local CloseKey = Instance.new("TextButton")
 KeySystemGui.Name = "KeySystemGui"
 KeySystemGui.Parent = game.Players.LocalPlayer:WaitForChild("PlayerGui")
 KeySystemGui.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
+KeySystemGui.ResetOnSpawn = false
 
 KeySystem.Name = "KeySystem"
 KeySystem.Parent = KeySystemGui
