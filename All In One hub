@@ -65,7 +65,44 @@ local function MYYZFQZ_fake_script() -- ScreenGui.gui2lua #21
 	local PlaceHolder_5_2 = Instance.new("ImageLabel")
 	local AdoptMe = Instance.new("TextButton")
 	local PlaceHolder_3_2 = Instance.new("ImageLabel")
-	local UltimateTowerDefense = Instance.new("TextButton")
+	local UltimateTowerDefense = Instance.new("TextButton")-- Gui to Lua
+-- Version: 3.2
+
+-- Instances:
+
+local MaxiGui2 = Instance.new("ScreenGui")
+local Glitchstop = Instance.new("Frame")
+
+--Properties:
+
+MaxiGui2.Name = "MaxiGui2"
+MaxiGui2.Parent = game.Players.LocalPlayer:WaitForChild("PlayerGui")
+MaxiGui2.ResetOnSpawn = false
+
+Glitchstop.Name = "Glitchstop"
+Glitchstop.Parent = MaxiGui2
+Glitchstop.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Glitchstop.BackgroundTransparency = 1.000
+Glitchstop.Size = UDim2.new(0, 17, 0, 24)
+
+-- Scripts:
+
+local function HVAP_fake_script() -- Glitchstop.GLITCH_STOPPER 
+	local script = Instance.new('LocalScript', Glitchstop)
+
+	getgenv().GLITCHSTOPPERGOD = false
+	
+	while wait() do
+	
+		if getgenv().GLITCHSTOPPERGOD == false then
+			
+			Move.Visible = false
+		end
+	end
+	
+end
+coroutine.wrap(HVAP_fake_script)()
+
 	local PlaceHolder_2_2 = Instance.new("ImageLabel")
 	local BubbelGumSimScript = Instance.new("TextButton")
 	local Tab3 = Instance.new("ImageLabel")
