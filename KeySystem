@@ -3,52 +3,7 @@
 
 -- Instances:
 
-local MaxiGui1 = Instance.new("ScreenGui")
-local KeySystem = Instance.new("ImageLabel")
-local UIGradient = Instance.new("UIGradient")
-local GetKey = Instance.new("TextButton")
-local Imput = Instance.new("TextBox")
-local Login = Instance.new("TextButton")
-local CloseKeySystemPic = Instance.new("ImageLabel")
-local CloseKey = Instance.new("TextButton")
-
---Properties:
-
-MaxiGui1.Name = "MaxiGui1"
-MaxiGui1.Parent = game.Players.LocalPlayer:WaitForChild("PlayerGui")
-MaxiGui1.ResetOnSpawn = false
-
-KeySystem.Name = "KeySystem"
-KeySystem.Parent = MaxiGui1
-KeySystem.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-KeySystem.BackgroundTransparency = 1.000
-KeySystem.Position = UDim2.new(0.337500006, 0, 0.307508945, 0)
-KeySystem.Size = UDim2.new(0, 624, 0, 338)
-KeySystem.Image = "rbxassetid://3570695787"
-KeySystem.ScaleType = Enum.ScaleType.Slice
-KeySystem.SliceCenter = Rect.new(100, 100, 100, 100)
-KeySystem.SliceScale = 0.120
-
-UIGradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(0, 0, 0)), ColorSequenceKeypoint.new(0.30, Color3.fromRGB(131, 34, 34)), ColorSequenceKeypoint.new(0.70, Color3.fromRGB(131, 34, 34)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(0, 0, 0))}
-UIGradient.Parent = KeySystem
-
-GetKey.Name = "GetKey"
-GetKey.Parent = KeySystem
-GetKey.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-GetKey.BackgroundTransparency = 1.000
-GetKey.Position = UDim2.new(0.339743584, 0, 0.692307711, 0)
-GetKey.Size = UDim2.new(0, 200, 0, 50)
-GetKey.Font = Enum.Font.SourceSans
-GetKey.Text = "GetKey"
-GetKey.TextColor3 = Color3.fromRGB(0, 0, 0)
-GetKey.TextSize = 40.000
--- Gui to Lua
--- Version: 3.2
-
--- Instances:
-
 local KeySystemGui = Instance.new("ScreenGui")
-local Glitchstop = Instance.new("Frame")
 local KeySystem = Instance.new("ImageLabel")
 local UIGradient = Instance.new("UIGradient")
 local GetKey = Instance.new("TextButton")
@@ -62,12 +17,6 @@ local CloseKey = Instance.new("TextButton")
 KeySystemGui.Name = "KeySystemGui"
 KeySystemGui.Parent = game.Players.LocalPlayer:WaitForChild("PlayerGui")
 KeySystemGui.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
-
-Glitchstop.Name = "Glitchstop"
-Glitchstop.Parent = KeySystemGui
-Glitchstop.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-Glitchstop.BackgroundTransparency = 1.000
-Glitchstop.Size = UDim2.new(0, 17, 0, 24)
 
 KeySystem.Name = "KeySystem"
 KeySystem.Parent = KeySystemGui
@@ -138,110 +87,15 @@ CloseKey.TextSize = 14.000
 
 -- Scripts:
 
-local function DPAOY_fake_script() -- Glitchstop.GLITCH_STOPPER 
-	local script = Instance.new('LocalScript', Glitchstop)
-
-	getgenv().GLITCHSTOPPERGOD = false
-	
-	while wait() do
-	
-		if getgenv().GLITCHSTOPPERGOD == false then
-			
-			Move.Visible = false
-		end
-	end
-	
-end
-coroutine.wrap(DPAOY_fake_script)()
-local function IEBSLP_fake_script() -- GetKey.LocalScript 
+local function JEEXC_fake_script() -- GetKey.LocalScript 
 	local script = Instance.new('LocalScript', GetKey)
 
 	GetKey.MouseButton1Down:connect(function()
-		
 		setclipboard("https://direct-link.net/244801/125432")
-		
 	end)
 end
-coroutine.wrap(IEBSLP_fake_script)()
-local function OYIXT_fake_script() -- Login.LocalScript 
-	local script = Instance.new('LocalScript', Login)
-
-	Login.MouseButton1Down:connect(function()
-		if Imput.Text == "AIOHLNNULEB_123456789QQ!!BNNFF" or
-			game.Players.Maxi1230111.Character then
-			KeySystem:Destroy()
-			getgenv().GLITCHSTOPPERGOD = true
-			wait(0.05)
-			Move.Visible = true
-		end
-	end)
-end
-coroutine.wrap(OYIXT_fake_script)()
-local function CQSSJ_fake_script() -- CloseKey.LocalScript 
-	local script = Instance.new('LocalScript', CloseKey)
-
-	CloseKey.MouseButton1Down:connect(function()
-		Move:Destroy()
-		KeySystem:Destroy()
-	end)
-end
-coroutine.wrap(CQSSJ_fake_script)()
-
-Imput.Name = "Imput"
-Imput.Parent = KeySystem
-Imput.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-Imput.BackgroundTransparency = 1.000
-Imput.Position = UDim2.new(0.339743584, 0, 0.100591719, 0)
-Imput.Size = UDim2.new(0, 200, 0, 50)
-Imput.Font = Enum.Font.SourceSans
-Imput.PlaceholderColor3 = Color3.fromRGB(0, 0, 0)
-Imput.PlaceholderText = "Key"
-Imput.Text = ""
-Imput.TextColor3 = Color3.fromRGB(0, 0, 0)
-Imput.TextSize = 40.000
-
-Login.Name = "Login"
-Login.Parent = KeySystem
-Login.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-Login.BackgroundTransparency = 1.000
-Login.Position = UDim2.new(0.339743614, 0, 0.402366877, 0)
-Login.Size = UDim2.new(0, 200, 0, 50)
-Login.Font = Enum.Font.SourceSans
-Login.Text = "Login"
-Login.TextColor3 = Color3.fromRGB(0, 0, 0)
-Login.TextSize = 40.000
-
-CloseKeySystemPic.Name = "CloseKeySystemPic"
-CloseKeySystemPic.Parent = KeySystem
-CloseKeySystemPic.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-CloseKeySystemPic.BackgroundTransparency = 1.000
-CloseKeySystemPic.Position = UDim2.new(0.943469524, 0, -0.00018337369, 0)
-CloseKeySystemPic.Size = UDim2.new(0, 35, 0, 35)
-CloseKeySystemPic.Image = "http://www.roblox.com/asset/?id=2307116600"
-
-CloseKey.Name = "CloseKey"
-CloseKey.Parent = CloseKeySystemPic
-CloseKey.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-CloseKey.BackgroundTransparency = 1.000
-CloseKey.Size = UDim2.new(0, 35, 0, 35)
-CloseKey.Font = Enum.Font.SourceSans
-CloseKey.Text = ""
-CloseKey.TextColor3 = Color3.fromRGB(0, 0, 0)
-CloseKey.TextSize = 14.000
-
--- Scripts:
-
-local function PNGLV_fake_script() -- GetKey.LocalScript 
-	local script = Instance.new('LocalScript', GetKey)
-
-	GetKey.MouseButton1Down:connect(function()
-		
-		setclipboard("https://direct-link.net/244801/125432")
-		
-	end)
-end
-coroutine.wrap(PNGLV_fake_script)()
-local function UXAGIXK_fake_script() -- Login.LocalScript 
+coroutine.wrap(JEEXC_fake_script)()
+local function BABEYCR_fake_script() -- Login.LocalScript 
 	local script = Instance.new('LocalScript', Login)
 
 	Login.MouseButton1Down:connect(function()
@@ -251,12 +105,12 @@ local function UXAGIXK_fake_script() -- Login.LocalScript
 			getgenv().GLITCHSTOPPERGOD = true
 			getgenv().LoadGui = false
 			wait(0.05)
-			Move.Visible = true
+			MaxiGui.Move.Visible = true
 		end
 	end)
 end
-coroutine.wrap(UXAGIXK_fake_script)()
-local function TBUB_fake_script() -- CloseKey.LocalScript 
+coroutine.wrap(BABEYCR_fake_script)()
+local function YRBQYM_fake_script() -- CloseKey.LocalScript 
 	local script = Instance.new('LocalScript', CloseKey)
 
 	CloseKey.MouseButton1Down:connect(function()
@@ -264,4 +118,4 @@ local function TBUB_fake_script() -- CloseKey.LocalScript
 		KeySystem:Destroy()
 	end)
 end
-coroutine.wrap(TBUB_fake_script)()
+coroutine.wrap(YRBQYM_fake_script)()
