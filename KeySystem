@@ -85,37 +85,23 @@ CloseKey.Text = ""
 CloseKey.TextColor3 = Color3.fromRGB(0, 0, 0)
 CloseKey.TextSize = 14.000
 
--- Scripts:
-
-local function JEEXC_fake_script() -- GetKey.LocalScript 
-	local script = Instance.new('LocalScript', GetKey)
 
 	GetKey.MouseButton1Down:connect(function()
 		setclipboard("https://direct-link.net/244801/125432")
 	end)
-end
-coroutine.wrap(JEEXC_fake_script)()
-local function BABEYCR_fake_script() -- Login.LocalScript 
-	local script = Instance.new('LocalScript', Login)
 
 	Login.MouseButton1Down:connect(function()
 		if Imput.Text == "AIOHLNNULEB_123456789QQ!!BNNFF" or
 			game.Players.Maxi1230111.Character then
-			KeySystem:Destroy()
-			getgenv().GLITCHSTOPPERGOD = true
 			getgenv().LoadGui = false
 			wait(0.05)
-			MaxiGui.Move.Visible = true
+            loadstring(game:HttpGet("https://raw.githubusercontent.com/BOBINYOURFLOP/ALL-IN-ONE-HUB-NEW-D/main/ALL%20IN%20ONE%20HUB"))()
+wait(0.1)
+KeySystem:Destroy()
 		end
 	end)
-end
-coroutine.wrap(BABEYCR_fake_script)()
-local function YRBQYM_fake_script() -- CloseKey.LocalScript 
-	local script = Instance.new('LocalScript', CloseKey)
+
 
 	CloseKey.MouseButton1Down:connect(function()
-		Move:Destroy()
 		KeySystem:Destroy()
 	end)
-end
-coroutine.wrap(YRBQYM_fake_script)()
