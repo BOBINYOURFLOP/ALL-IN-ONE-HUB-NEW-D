@@ -2,7 +2,7 @@ if getgenv().LoadGui == false then
 
 -- SCRIPT HUB MADE BY MAXI :D
 -- I REALLY HOPE U LIKE IT :D
-
+-- UPDATED
 local MaxiGui = Instance.new("ScreenGui")
 local Move = Instance.new("ImageLabel")
 local Gui = Instance.new("ImageLabel")
@@ -1657,7 +1657,7 @@ FPSCounterText.TextXAlignment = Enum.TextXAlignment.Right
 
 -- Scripts:
 
-local function DXNPXSQ_fake_script() -- HomeButton.LocalScript 
+local function LTQC_fake_script() -- HomeButton.LocalScript 
 	local script = Instance.new('LocalScript', HomeButton)
 
 	HomeButton.MouseButton1Down:connect(function()
@@ -1674,8 +1674,8 @@ local function DXNPXSQ_fake_script() -- HomeButton.LocalScript
 		SettingsVisibleTurn.Visible = false
 	end)
 end
-coroutine.wrap(DXNPXSQ_fake_script)()
-local function MGWPS_fake_script() -- Close.LocalScript 
+coroutine.wrap(LTQC_fake_script)()
+local function RGCP_fake_script() -- Close.LocalScript 
 	local script = Instance.new('LocalScript', Close)
 
 	Close.MouseButton1Down:connect(function()
@@ -1683,8 +1683,8 @@ local function MGWPS_fake_script() -- Close.LocalScript
 		InfoALLSTAR:Destroy()
 	end)
 end
-coroutine.wrap(MGWPS_fake_script)()
-local function IXXVNLB_fake_script() -- ScriptHubButton.LocalScript 
+coroutine.wrap(RGCP_fake_script)()
+local function MSPSE_fake_script() -- ScriptHubButton.LocalScript 
 	local script = Instance.new('LocalScript', ScriptHubButton)
 
 	ScriptHubButton.MouseButton1Down:connect(function()
@@ -1699,32 +1699,32 @@ local function IXXVNLB_fake_script() -- ScriptHubButton.LocalScript
 		SettingsVisibleTurn.Visible = false
 	end)
 end
-coroutine.wrap(IXXVNLB_fake_script)()
-local function CSQQBKR_fake_script() -- Cmd_X.LocalScript 
+coroutine.wrap(MSPSE_fake_script)()
+local function EFETO_fake_script() -- Cmd_X.LocalScript 
 	local script = Instance.new('LocalScript', Cmd_X)
 
 	Cmd_X.MouseButton1Down:connect(function()
 	     loadstring(game:HttpGet("https://raw.githubusercontent.com/CMD-X/CMD-X/master/Source",true))()
 	end)
 end
-coroutine.wrap(CSQQBKR_fake_script)()
-local function QSNFO_fake_script() -- INFINITE_YIELD.LocalScript 
+coroutine.wrap(EFETO_fake_script)()
+local function UPJH_fake_script() -- INFINITE_YIELD.LocalScript 
 	local script = Instance.new('LocalScript', INFINITE_YIELD)
 
 	INFINITE_YIELD.MouseButton1Down:connect(function()
 		loadstring(game:HttpGet('https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source'))()
 	end)
 end
-coroutine.wrap(QSNFO_fake_script)()
-local function HFRYN_fake_script() -- SharkBiteScript.LocalScript 
+coroutine.wrap(UPJH_fake_script)()
+local function HLIRIBC_fake_script() -- SharkBiteScript.LocalScript 
 	local script = Instance.new('LocalScript', SharkBiteScript)
 
 	SharkBiteScript.MouseButton1Down:connect(function()
 		loadstring(game:HttpGet("https://pastebin.com/raw/YYVLbzVg", true))()
 	end)
 end
-coroutine.wrap(HFRYN_fake_script)()
-local function XICAYSG_fake_script() -- SharkBiteScriptAll.LocalScript 
+coroutine.wrap(HLIRIBC_fake_script)()
+local function MTMXVBH_fake_script() -- SharkBiteScriptAll.LocalScript 
 	local script = Instance.new('LocalScript', SharkBiteScriptAll)
 
 	SharkBiteScriptAll.MouseButton1Down:connect(function()
@@ -1732,16 +1732,16 @@ local function XICAYSG_fake_script() -- SharkBiteScriptAll.LocalScript
 		loadstring(game:GetObjects("rbxassetid://3623753581")[1].Source)()
 	end)
 end
-coroutine.wrap(XICAYSG_fake_script)()
-local function XHXUPN_fake_script() -- RagdollEngineScript.LocalScript 
+coroutine.wrap(MTMXVBH_fake_script)()
+local function YTQVH_fake_script() -- RagdollEngineScript.LocalScript 
 	local script = Instance.new('LocalScript', RagdollEngineScript)
 
 	RagdollEngineScript.MouseButton1Down:connect(function()
 		loadstring(game:HttpGet("https://raw.githubusercontent.com/RegularVynixu/Scripts/master/Vynixius%20Ragdoll%20Engine%20Loader"))()
 	end)
 end
-coroutine.wrap(XHXUPN_fake_script)()
-local function DDOVR_fake_script() -- Tab_1.LocalScript 
+coroutine.wrap(YTQVH_fake_script)()
+local function UNAS_fake_script() -- Tab_1.LocalScript 
 	local script = Instance.new('LocalScript', Tab_1)
 
 	Tab_1.MouseButton1Down:connect(function()
@@ -1750,8 +1750,8 @@ local function DDOVR_fake_script() -- Tab_1.LocalScript
 		Tab3VisibleTurn.Visible = false
 	end)
 end
-coroutine.wrap(DDOVR_fake_script)()
-local function ZZOALSI_fake_script() -- Tab_2.LocalScript 
+coroutine.wrap(UNAS_fake_script)()
+local function MYPU_fake_script() -- Tab_2.LocalScript 
 	local script = Instance.new('LocalScript', Tab_2)
 
 	Tab_2.MouseButton1Down:connect(function()
@@ -1760,32 +1760,32 @@ local function ZZOALSI_fake_script() -- Tab_2.LocalScript
 		Tab3VisibleTurn.Visible = false
 	end)
 end
-coroutine.wrap(ZZOALSI_fake_script)()
-local function EADHITH_fake_script() -- BeeSwarmSimulator.LocalScript 
+coroutine.wrap(MYPU_fake_script)()
+local function FERSGWA_fake_script() -- BeeSwarmSimulator.LocalScript 
 	local script = Instance.new('LocalScript', BeeSwarmSimulator)
 
 	BeeSwarmSimulator.MouseButton1Down:connect(function()
 		loadstring(game:GetObjects("rbxassetid://4384103988")[0X1].Source)("Pepsi Swarm")
 	end)
 end
-coroutine.wrap(EADHITH_fake_script)()
-local function BLMLTTW_fake_script() -- BreakingPoint.LocalScript 
+coroutine.wrap(FERSGWA_fake_script)()
+local function WTYB_fake_script() -- BreakingPoint.LocalScript 
 	local script = Instance.new('LocalScript', BreakingPoint)
 
 	BreakingPoint.MouseButton1Down:connect(function()
 		loadstring(game:HttpGet('https://pastebin.com/raw/TqPihvFD', true))()
 	end)
 end
-coroutine.wrap(BLMLTTW_fake_script)()
-local function XBSWLGL_fake_script() -- AdoptMe.LocalScript 
+coroutine.wrap(WTYB_fake_script)()
+local function OGBY_fake_script() -- AdoptMe.LocalScript 
 	local script = Instance.new('LocalScript', AdoptMe)
 
 	AdoptMe.MouseButton1Down:connect(function()
 		loadstring(game:HttpGet('https://raw.githubusercontent.com/BloxiYT/BloxHub-v2/main/Main', true))()
 		end)
 end
-coroutine.wrap(XBSWLGL_fake_script)()
-local function WJZCZFE_fake_script() -- UltimateTowerDefense.LocalScript 
+coroutine.wrap(OGBY_fake_script)()
+local function LQDO_fake_script() -- UltimateTowerDefense.LocalScript 
 	local script = Instance.new('LocalScript', UltimateTowerDefense)
 
 	UltimateTowerDefense.MouseButton1Down:connect(function()
@@ -1801,8 +1801,8 @@ local function WJZCZFE_fake_script() -- UltimateTowerDefense.LocalScript
 	end)
 	
 end
-coroutine.wrap(WJZCZFE_fake_script)()
-local function UQTHLNN_fake_script() -- BubbelGumSimScript.LocalScript 
+coroutine.wrap(LQDO_fake_script)()
+local function FGFU_fake_script() -- BubbelGumSimScript.LocalScript 
 	local script = Instance.new('LocalScript', BubbelGumSimScript)
 
 	BubbelGumSimScript.MouseButton1Down:connect(function()
@@ -1841,8 +1841,8 @@ local function UQTHLNN_fake_script() -- BubbelGumSimScript.LocalScript
 		loadstring(game:HttpGet("https://raw.githubusercontent.com/derekcool38/Releases/main/ScriptHub/Loader.lua"))()
 	end)
 end
-coroutine.wrap(UQTHLNN_fake_script)()
-local function IUPGGW_fake_script() -- Tab_3.LocalScript 
+coroutine.wrap(FGFU_fake_script)()
+local function BBCZFI_fake_script() -- Tab_3.LocalScript 
 	local script = Instance.new('LocalScript', Tab_3)
 
 	Tab_3.MouseButton1Down:connect(function()
@@ -1851,16 +1851,16 @@ local function IUPGGW_fake_script() -- Tab_3.LocalScript
 		Tab3VisibleTurn.Visible = true
 	end)
 end
-coroutine.wrap(IUPGGW_fake_script)()
-local function OUYJMBZ_fake_script() -- Supernatural.LocalScript 
+coroutine.wrap(BBCZFI_fake_script)()
+local function UWYLB_fake_script() -- Supernatural.LocalScript 
 	local script = Instance.new('LocalScript', Supernatural)
 
 	Supernatural.MouseButton1Down:connect(function()
 		loadstring(game:HttpGet("https://system-exodus.com/scripts/misc-releases/supernatural.lua",true))()
 	end)
 end
-coroutine.wrap(OUYJMBZ_fake_script)()
-local function HBGPLSG_fake_script() -- LuckyBlock.LocalScript 
+coroutine.wrap(UWYLB_fake_script)()
+local function HNNFAFT_fake_script() -- LuckyBlock.LocalScript 
 	local script = Instance.new('LocalScript', LuckyBlock)
 
 	LuckyBlock.MouseButton1Down:connect(function()
@@ -1878,24 +1878,24 @@ local function HBGPLSG_fake_script() -- LuckyBlock.LocalScript
 		end
 	end)
 end
-coroutine.wrap(HBGPLSG_fake_script)()
-local function IOGLJEQ_fake_script() -- ShindoLife.LocalScript 
+coroutine.wrap(HNNFAFT_fake_script)()
+local function BZTX_fake_script() -- ShindoLife.LocalScript 
 	local script = Instance.new('LocalScript', ShindoLife)
 
 	ShindoLife.MouseButton1Down:connect(function()
 		loadstring(game:HttpGet("https://bruh.keshhub.com/.lua"))()
 	end)
 end
-coroutine.wrap(IOGLJEQ_fake_script)()
-local function ZADI_fake_script() -- BuildABoat.LocalScript 
+coroutine.wrap(BZTX_fake_script)()
+local function JDJIOW_fake_script() -- BuildABoat.LocalScript 
 	local script = Instance.new('LocalScript', BuildABoat)
 
 	BuildABoat.MouseButton1Down:connect(function()
 		loadstring(game:HttpGet("https://raw.githubusercontent.com/Toxic-Mods/Kupcake.Hub/main/Loader", true))() 
 	end)
 end
-coroutine.wrap(ZADI_fake_script)()
-local function WESMUW_fake_script() -- AllStar.LocalScript 
+coroutine.wrap(JDJIOW_fake_script)()
+local function ZFEAGA_fake_script() -- AllStar.LocalScript 
 	local script = Instance.new('LocalScript', AllStar)
 
 	AllStar.MouseButton1Down:connect(function()
@@ -1908,8 +1908,8 @@ local function WESMUW_fake_script() -- AllStar.LocalScript
 	setclipboard('NIX DA XD')
 	end)
 end
-coroutine.wrap(WESMUW_fake_script)()
-local function AGEK_fake_script() -- InfoALLSTAR.LocalScript 
+coroutine.wrap(ZFEAGA_fake_script)()
+local function IEGDBCB_fake_script() -- InfoALLSTAR.LocalScript 
 	local script = Instance.new('LocalScript', InfoALLSTAR)
 
 	local UIS = game:GetService('UserInputService')
@@ -1981,16 +1981,16 @@ local function AGEK_fake_script() -- InfoALLSTAR.LocalScript
 	
 	end)
 end
-coroutine.wrap(AGEK_fake_script)()
-local function HFYHZE_fake_script() -- CloseInfo.LocalScript 
+coroutine.wrap(IEGDBCB_fake_script)()
+local function FKMMGW_fake_script() -- CloseInfo.LocalScript 
 	local script = Instance.new('LocalScript', CloseInfo)
 
 	CloseInfo.MouseButton1Down:connect(function()
 		InfoALLSTAR.Visible = false
 	end)
 end
-coroutine.wrap(HFYHZE_fake_script)()
-local function LXCN_fake_script() -- Move.LocalScript 
+coroutine.wrap(FKMMGW_fake_script)()
+local function XPPP_fake_script() -- Move.LocalScript 
 	local script = Instance.new('LocalScript', Move)
 
 	local toggle = false -- false is Off; true is On
@@ -2010,8 +2010,8 @@ local function LXCN_fake_script() -- Move.LocalScript
 	
 	game.ContextActionService:BindAction("keyPress", onKeyPress, false, Enum.KeyCode.P)
 end
-coroutine.wrap(LXCN_fake_script)()
-local function AVOEYFW_fake_script() -- HubButton.LocalScript 
+coroutine.wrap(XPPP_fake_script)()
+local function RDPHTHW_fake_script() -- HubButton.LocalScript 
 	local script = Instance.new('LocalScript', HubButton)
 
 	HubButton.MouseButton1Down:connect(function()
@@ -2026,8 +2026,8 @@ local function AVOEYFW_fake_script() -- HubButton.LocalScript
 		SettingsVisibleTurn.Visible = false
 	end)
 end
-coroutine.wrap(AVOEYFW_fake_script)()
-local function YUSV_fake_script() -- Tab_2Hub.LocalScript 
+coroutine.wrap(RDPHTHW_fake_script)()
+local function NSYOKW_fake_script() -- Tab_2Hub.LocalScript 
 	local script = Instance.new('LocalScript', Tab_2Hub)
 
 	Tab_2Hub.MouseButton1Down:connect(function()
@@ -2036,48 +2036,48 @@ local function YUSV_fake_script() -- Tab_2Hub.LocalScript
 		Tab3VisibleTurnHub.Visible = false
 	end)
 end
-coroutine.wrap(YUSV_fake_script)()
-local function IFDWRRT_fake_script() -- BruhHub.LocalScript 
+coroutine.wrap(NSYOKW_fake_script)()
+local function WSSFBUT_fake_script() -- BruhHub.LocalScript 
 	local script = Instance.new('LocalScript', BruhHub)
 
 	BruhHub.MouseButton1Down:connect(function()
 		loadstring(game:HttpGet("https://bruh.keshhub.com/.lua"))()
 	end)
 end
-coroutine.wrap(IFDWRRT_fake_script)()
-local function DQTZAIB_fake_script() -- EzHub.LocalScript 
+coroutine.wrap(WSSFBUT_fake_script)()
+local function NYFHUCK_fake_script() -- EzHub.LocalScript 
 	local script = Instance.new('LocalScript', EzHub)
 
 	EzHub.MouseButton1Down:connect(function()
 		loadstring(game:HttpGet(('https://raw.githubusercontent.com/debug420/Ez-Industries-Launcher-Data/master/Launcher.lua'),true))()
 	end)
 end
-coroutine.wrap(DQTZAIB_fake_script)()
-local function FYYMVDV_fake_script() -- PantherHub.LocalScript 
+coroutine.wrap(NYFHUCK_fake_script)()
+local function MNWJPJ_fake_script() -- PantherHub.LocalScript 
 	local script = Instance.new('LocalScript', PantherHub)
 
 	PantherHub.MouseButton1Down:connect(function()
 		loadstring(game:HttpGet("https://raw.githubusercontent.com/Splooshhy/PantherHub/main/script.lua"))()
 	end)
 end
-coroutine.wrap(FYYMVDV_fake_script)()
-local function CTVXSRE_fake_script() -- DarkHub.LocalScript 
+coroutine.wrap(MNWJPJ_fake_script)()
+local function KNVB_fake_script() -- DarkHub.LocalScript 
 	local script = Instance.new('LocalScript', DarkHub)
 
 	DarkHub.MouseButton1Down:connect(function()
 		loadstring(game:HttpGet(("https://pastebin.com/raw/yCrBkPaY"), true))()
 	end)
 end
-coroutine.wrap(CTVXSRE_fake_script)()
-local function WINER_fake_script() -- MheeHub.LocalScript 
+coroutine.wrap(KNVB_fake_script)()
+local function JKAIE_fake_script() -- MheeHub.LocalScript 
 	local script = Instance.new('LocalScript', MheeHub)
 
 	MheeHub.MouseButton1Down:connect(function()
 		loadstring(game:HttpGet("https://raw.githubusercontent.com/BunnySalf/Hentai/main/MHEEHUB",true))()
 	end)
 end
-coroutine.wrap(WINER_fake_script)()
-local function PKFWJ_fake_script() -- Tab_3Hub.LocalScript 
+coroutine.wrap(JKAIE_fake_script)()
+local function UTGIMF_fake_script() -- Tab_3Hub.LocalScript 
 	local script = Instance.new('LocalScript', Tab_3Hub)
 
 	Tab_3Hub.MouseButton1Down:connect(function()
@@ -2086,48 +2086,48 @@ local function PKFWJ_fake_script() -- Tab_3Hub.LocalScript
 		Tab3VisibleTurnHub.Visible = true
 	end)
 end
-coroutine.wrap(PKFWJ_fake_script)()
-local function GSZHR_fake_script() -- Project_Evulution.LocalScript 
+coroutine.wrap(UTGIMF_fake_script)()
+local function VDXI_fake_script() -- Project_Evulution.LocalScript 
 	local script = Instance.new('LocalScript', Project_Evulution)
 
 	Project_Evulution.MouseButton1Down:connect(function()
 		loadstring(game:HttpGet("https://raw.githubusercontent.com/Project-Evolution/Main/main/Loader.lua", true))()
 	end)
 end
-coroutine.wrap(GSZHR_fake_script)()
-local function PXWX_fake_script() -- KupCakeHub.LocalScript 
+coroutine.wrap(VDXI_fake_script)()
+local function OULH_fake_script() -- KupCakeHub.LocalScript 
 	local script = Instance.new('LocalScript', KupCakeHub)
 
 	KupCakeHub.MouseButton1Down:connect(function()
 		loadstring(game:HttpGet("https://raw.githubusercontent.com/Toxic-Mods/Kupcake.Hub/main/Loader", true))()
 	end)
 end
-coroutine.wrap(PXWX_fake_script)()
-local function TRDZM_fake_script() -- ShuShiScriptHub.LocalScript 
+coroutine.wrap(OULH_fake_script)()
+local function SILF_fake_script() -- ShuShiScriptHub.LocalScript 
 	local script = Instance.new('LocalScript', ShuShiScriptHub)
 
 	ShuShiScriptHub.MouseButton1Down:connect(function()
 		loadstring(game:HttpGet("https://raw.githubusercontent.com/Farn2000/ShuShiScript/master/ShuShiScriptHub"))()
 	end)
 end
-coroutine.wrap(TRDZM_fake_script)()
-local function MRVOT_fake_script() -- AntarcticHub.LocalScript 
+coroutine.wrap(SILF_fake_script)()
+local function AUMQ_fake_script() -- AntarcticHub.LocalScript 
 	local script = Instance.new('LocalScript', AntarcticHub)
 
 	AntarcticHub.MouseButton1Down:connect(function()
 		loadstring(game:HttpGet("https://raw.githubusercontent.com/JusticeValley/Antarctic-Hub/main/New.lua", true))()
 	end)
 end
-coroutine.wrap(MRVOT_fake_script)()
-local function URHA_fake_script() -- GHUB.LocalScript 
+coroutine.wrap(AUMQ_fake_script)()
+local function PCRA_fake_script() -- GHUB.LocalScript 
 	local script = Instance.new('LocalScript', GHUB)
 
 	GHUB.MouseButton1Down:connect(function()
 		loadstring(game:HttpGet("https://raw.githubusercontent.com/2dgeneralspam1/scripts-and-stuff/master/scripts/garfield%20hub", true))()
 	end)
 end
-coroutine.wrap(URHA_fake_script)()
-local function UOLW_fake_script() -- AlphaX.LocalScript 
+coroutine.wrap(PCRA_fake_script)()
+local function DYGWN_fake_script() -- AlphaX.LocalScript 
 	local script = Instance.new('LocalScript', AlphaX)
 
 	AlphaX.MouseButton1Down:connect(function()
@@ -2136,8 +2136,8 @@ local function UOLW_fake_script() -- AlphaX.LocalScript
 		loadstring(http_request({Url="https://raw.githubusercontent.com/alphaalt0409/WEIRDAPPLEBEEPANEL/main/weirdapplebee.lua",Method="GET"}).Body)()
 	end)
 end
-coroutine.wrap(UOLW_fake_script)()
-local function CHPE_fake_script() -- Cattori.LocalScript 
+coroutine.wrap(DYGWN_fake_script)()
+local function KLJAV_fake_script() -- Cattori.LocalScript 
 	local script = Instance.new('LocalScript', Cattori)
 
 	Cattori.MouseButton1Down:connect(function()
@@ -2146,8 +2146,8 @@ local function CHPE_fake_script() -- Cattori.LocalScript
 		loadstring(game:HttpGet('https://cattori.xyz/main.lua'))()
 	end)
 end
-coroutine.wrap(CHPE_fake_script)()
-local function OLJN_fake_script() -- BloodGui.LocalScript 
+coroutine.wrap(KLJAV_fake_script)()
+local function IIGM_fake_script() -- BloodGui.LocalScript 
 	local script = Instance.new('LocalScript', BloodGui)
 
 	BloodGui.MouseButton1Down:connect(function()
@@ -2155,16 +2155,16 @@ local function OLJN_fake_script() -- BloodGui.LocalScript
 		loadstring(game:HttpGet("https://raw.githubusercontent.com/BloodStillCool/666blood666/main/nil"))()
 	end)
 end
-coroutine.wrap(OLJN_fake_script)()
-local function JAUYOAM_fake_script() -- JayHub.LocalScript 
+coroutine.wrap(IIGM_fake_script)()
+local function AUNIQR_fake_script() -- JayHub.LocalScript 
 	local script = Instance.new('LocalScript', JayHub)
 
 	JayHub.MouseButton1Down:connect(function()
 		loadstring(game:HttpGet("https://jack1214060.xyz/jayhub",true))()
 	end)
 end
-coroutine.wrap(JAUYOAM_fake_script)()
-local function GQVUADW_fake_script() -- LumberSmasher.LocalScript 
+coroutine.wrap(AUNIQR_fake_script)()
+local function MWNZK_fake_script() -- LumberSmasher.LocalScript 
 	local script = Instance.new('LocalScript', LumberSmasher)
 
 	LumberSmasher.MouseButton1Down:connect(function()
@@ -2173,8 +2173,8 @@ local function GQVUADW_fake_script() -- LumberSmasher.LocalScript
 		loadstring(http_request({Url="https://cdn.applebee1558.com/autoloader.lua",Method="GET"}).Body)()
 	end)
 end
-coroutine.wrap(GQVUADW_fake_script)()
-local function APAPRW_fake_script() -- Tab_1Hub.LocalScript 
+coroutine.wrap(MWNZK_fake_script)()
+local function ZCIFJN_fake_script() -- Tab_1Hub.LocalScript 
 	local script = Instance.new('LocalScript', Tab_1Hub)
 
 	Tab_1Hub.MouseButton1Down:connect(function()
@@ -2183,8 +2183,8 @@ local function APAPRW_fake_script() -- Tab_1Hub.LocalScript
 		Tab3VisibleTurnHub.Visible = false
 	end)
 end
-coroutine.wrap(APAPRW_fake_script)()
-local function QIWDO_fake_script() -- ScriptMiscButton.LocalScript 
+coroutine.wrap(ZCIFJN_fake_script)()
+local function GHZA_fake_script() -- ScriptMiscButton.LocalScript 
 	local script = Instance.new('LocalScript', ScriptMiscButton)
 
 	ScriptMiscButton.MouseButton1Down:connect(function()
@@ -2199,16 +2199,16 @@ local function QIWDO_fake_script() -- ScriptMiscButton.LocalScript
 		SettingsVisibleTurn.Visible = false
 	end)
 end
-coroutine.wrap(QIWDO_fake_script)()
-local function HMQJKWO_fake_script() -- SetDayServerScript.LocalScript 
+coroutine.wrap(GHZA_fake_script)()
+local function ZPKQMIA_fake_script() -- SetDayServerScript.LocalScript 
 	local script = Instance.new('LocalScript', SetDayServerScript)
 
 	SetDayServerScript.MouseButton1Down:connect(function()
 		game.Lighting.TimeOfDay = "12:00:00:"
 	end)
 end
-coroutine.wrap(HMQJKWO_fake_script)()
-local function PLMUY_fake_script() -- OtherServerScript.LocalScript 
+coroutine.wrap(ZPKQMIA_fake_script)()
+local function KGFZ_fake_script() -- OtherServerScript.LocalScript 
 	local script = Instance.new('LocalScript', OtherServerScript)
 
 	OtherServerScript.MouseButton1Down:connect(function()
@@ -2216,8 +2216,8 @@ local function PLMUY_fake_script() -- OtherServerScript.LocalScript
 		ts:Teleport(game.PlaceId, p)
 	end)
 end
-coroutine.wrap(PLMUY_fake_script)()
-local function KFAXMAP_fake_script() -- AlwaysDayServerScript.LocalScript 
+coroutine.wrap(KGFZ_fake_script)()
+local function EQBG_fake_script() -- AlwaysDayServerScript.LocalScript 
 	local script = Instance.new('LocalScript', AlwaysDayServerScript)
 
 	AlwaysDayServerScript.MouseButton1Down:connect(function()
@@ -2226,8 +2226,8 @@ local function KFAXMAP_fake_script() -- AlwaysDayServerScript.LocalScript
 			end
 	end)
 end
-coroutine.wrap(KFAXMAP_fake_script)()
-local function ZVOVERH_fake_script() -- RejoinServerScript.LocalScript 
+coroutine.wrap(EQBG_fake_script)()
+local function KQVZDX_fake_script() -- RejoinServerScript.LocalScript 
 	local script = Instance.new('LocalScript', RejoinServerScript)
 
 	RejoinServerScript.MouseButton1Down:connect(function()
@@ -2237,8 +2237,8 @@ local function ZVOVERH_fake_script() -- RejoinServerScript.LocalScript
 		ts:Teleport(game.PlaceId, p)
 	end)
 end
-coroutine.wrap(ZVOVERH_fake_script)()
-local function JMJU_fake_script() -- FPSCOUNTER.LocalScript 
+coroutine.wrap(KQVZDX_fake_script)()
+local function SXWDUN_fake_script() -- FPSCOUNTER.LocalScript 
 	local script = Instance.new('LocalScript', FPSCOUNTER)
 
 	getgenv().FPSTOGGLE = true
@@ -2258,16 +2258,16 @@ local function JMJU_fake_script() -- FPSCOUNTER.LocalScript
 		end
 	end)
 end
-coroutine.wrap(JMJU_fake_script)()
-local function SCVVW_fake_script() -- DarkDexScript.LocalScript 
+coroutine.wrap(SXWDUN_fake_script)()
+local function OXKQ_fake_script() -- DarkDexScript.LocalScript 
 	local script = Instance.new('LocalScript', DarkDexScript)
 
 	DarkDexScript.MouseButton1Down:connect(function()
 		loadstring('\105\102\32\103\97\109\101\58\71\101\116\83\101\114\118\105\99\101\39\67\111\114\101\71\117\105\39\58\70\105\110\100\70\105\114\115\116\67\104\105\108\100\39\68\101\120\39\32\116\104\101\110\13\10\32\32\32\32\103\97\109\101\58\71\101\116\83\101\114\118\105\99\101\39\67\111\114\101\71\117\105\39\46\68\101\120\58\68\101\115\116\114\111\121\40\41\59\13\10\101\110\100\13\10\13\10\109\97\116\104\46\114\97\110\100\111\109\115\101\101\100\40\116\105\99\107\40\41\41\13\10\13\10\108\111\99\97\108\32\99\104\97\114\115\101\116\32\61\32\123\125\13\10\102\111\114\32\105\32\61\32\52\56\44\32\32\53\55\32\100\111\32\116\97\98\108\101\46\105\110\115\101\114\116\40\99\104\97\114\115\101\116\44\32\115\116\114\105\110\103\46\99\104\97\114\40\105\41\41\32\101\110\100\13\10\102\111\114\32\105\32\61\32\54\53\44\32\32\57\48\32\100\111\32\116\97\98\108\101\46\105\110\115\101\114\116\40\99\104\97\114\115\101\116\44\32\115\116\114\105\110\103\46\99\104\97\114\40\105\41\41\32\101\110\100\13\10\102\111\114\32\105\32\61\32\57\55\44\32\49\50\50\32\100\111\32\116\97\98\108\101\46\105\110\115\101\114\116\40\99\104\97\114\115\101\116\44\32\115\116\114\105\110\103\46\99\104\97\114\40\105\41\41\32\101\110\100\13\10\102\117\110\99\116\105\111\110\32\82\97\110\100\111\109\67\104\97\114\97\99\116\101\114\115\40\108\101\110\103\116\104\41\13\10\32\32\105\102\32\108\101\110\103\116\104\32\62\32\48\32\116\104\101\110\13\10\32\32\32\32\114\101\116\117\114\110\32\82\97\110\100\111\109\67\104\97\114\97\99\116\101\114\115\40\108\101\110\103\116\104\32\45\32\49\41\32\46\46\32\99\104\97\114\115\101\116\91\109\97\116\104\46\114\97\110\100\111\109\40\49\44\32\35\99\104\97\114\115\101\116\41\93\13\10\32\32\101\108\115\101\13\10\32\32\32\32\114\101\116\117\114\110\32\34\34\13\10\32\32\101\110\100\13\10\101\110\100\13\10\13\10\108\111\99\97\108\32\68\101\120\32\61\32\103\97\109\101\58\71\101\116\79\98\106\101\99\116\115\40\34\114\98\120\97\115\115\101\116\105\100\58\47\47\51\53\54\55\48\57\54\52\49\57\34\41\91\49\93\13\10\68\101\120\46\78\97\109\101\32\61\32\82\97\110\100\111\109\67\104\97\114\97\99\116\101\114\115\40\109\97\116\104\46\114\97\110\100\111\109\40\53\44\32\50\48\41\41\13\10\68\101\120\46\80\97\114\101\110\116\32\61\32\103\97\109\101\58\71\101\116\83\101\114\118\105\99\101\40\34\67\111\114\101\71\117\105\34\41\13\10\32\32\32\32\13\10\108\111\99\97\108\32\102\117\110\99\116\105\111\110\32\76\111\97\100\40\79\98\106\44\32\85\114\108\41\13\10\108\111\99\97\108\32\102\117\110\99\116\105\111\110\32\71\105\118\101\79\119\110\71\108\111\98\97\108\115\40\70\117\110\99\44\32\83\99\114\105\112\116\41\13\10\32\32\32\32\108\111\99\97\108\32\70\101\110\118\32\61\32\123\125\13\10\32\32\32\32\108\111\99\97\108\32\82\101\97\108\70\101\110\118\32\61\32\123\115\99\114\105\112\116\32\61\32\83\99\114\105\112\116\125\13\10\32\32\32\32\108\111\99\97\108\32\70\101\110\118\77\116\32\61\32\123\125\13\10\32\32\32\32\70\101\110\118\77\116\46\95\95\105\110\100\101\120\32\61\32\102\117\110\99\116\105\111\110\40\97\44\98\41\13\10\32\32\32\32\32\32\32\32\105\102\32\82\101\97\108\70\101\110\118\91\98\93\32\61\61\32\110\105\108\32\116\104\101\110\13\10\32\32\32\32\32\32\32\32\32\32\32\32\114\101\116\117\114\110\32\103\101\116\102\101\110\118\40\41\91\98\93\13\10\32\32\32\32\32\32\32\32\101\108\115\101\13\10\32\32\32\32\32\32\32\32\32\32\32\32\114\101\116\117\114\110\32\82\101\97\108\70\101\110\118\91\98\93\13\10\32\32\32\32\32\32\32\32\101\110\100\13\10\32\32\32\32\101\110\100\13\10\32\32\32\32\70\101\110\118\77\116\46\95\95\110\101\119\105\110\100\101\120\32\61\32\102\117\110\99\116\105\111\110\40\97\44\32\98\44\32\99\41\13\10\32\32\32\32\32\32\32\32\105\102\32\82\101\97\108\70\101\110\118\91\98\93\32\61\61\32\110\105\108\32\116\104\101\110\13\10\32\32\32\32\32\32\32\32\32\32\32\32\103\101\116\102\101\110\118\40\41\91\98\93\32\61\32\99\13\10\32\32\32\32\32\32\32\32\101\108\115\101\13\10\32\32\32\32\32\32\32\32\32\32\32\32\82\101\97\108\70\101\110\118\91\98\93\32\61\32\99\13\10\32\32\32\32\32\32\32\32\101\110\100\13\10\32\32\32\32\101\110\100\13\10\32\32\32\32\115\101\116\109\101\116\97\116\97\98\108\101\40\70\101\110\118\44\32\70\101\110\118\77\116\41\13\10\32\32\32\32\115\101\116\102\101\110\118\40\70\117\110\99\44\32\70\101\110\118\41\13\10\32\32\32\32\114\101\116\117\114\110\32\70\117\110\99\13\10\101\110\100\13\10\13\10\108\111\99\97\108\32\102\117\110\99\116\105\111\110\32\76\111\97\100\83\99\114\105\112\116\115\40\83\99\114\105\112\116\41\13\10\32\32\32\32\105\102\32\83\99\114\105\112\116\46\67\108\97\115\115\78\97\109\101\32\61\61\32\34\83\99\114\105\112\116\34\32\111\114\32\83\99\114\105\112\116\46\67\108\97\115\115\78\97\109\101\32\61\61\32\34\76\111\99\97\108\83\99\114\105\112\116\34\32\116\104\101\110\13\10\32\32\32\32\32\32\32\32\115\112\97\119\110\40\102\117\110\99\116\105\111\110\40\41\13\10\32\32\32\32\32\32\32\32\32\32\32\32\71\105\118\101\79\119\110\71\108\111\98\97\108\115\40\108\111\97\100\115\116\114\105\110\103\40\83\99\114\105\112\116\46\83\111\117\114\99\101\44\32\34\61\34\32\46\46\32\83\99\114\105\112\116\58\71\101\116\70\117\108\108\78\97\109\101\40\41\41\44\32\83\99\114\105\112\116\41\40\41\13\10\32\32\32\32\32\32\32\32\101\110\100\41\13\10\32\32\32\32\101\110\100\13\10\32\32\32\32\102\111\114\32\105\44\118\32\105\110\32\112\97\105\114\115\40\83\99\114\105\112\116\58\71\101\116\67\104\105\108\100\114\101\110\40\41\41\32\100\111\13\10\32\32\32\32\32\32\32\32\76\111\97\100\83\99\114\105\112\116\115\40\118\41\13\10\32\32\32\32\101\110\100\13\10\101\110\100\13\10\13\10\76\111\97\100\83\99\114\105\112\116\115\40\79\98\106\41\13\10\101\110\100\13\10\13\10\76\111\97\100\40\68\101\120\41')()
 	end)
 end
-coroutine.wrap(SCVVW_fake_script)()
-local function RKXZYFQ_fake_script() -- ScriptSettingsButton.LocalScript 
+coroutine.wrap(OXKQ_fake_script)()
+local function MQYRDG_fake_script() -- ScriptSettingsButton.LocalScript 
 	local script = Instance.new('LocalScript', ScriptSettingsButton)
 
 	ScriptSettingsButton.MouseButton1Down:connect(function()
@@ -2282,24 +2282,24 @@ local function RKXZYFQ_fake_script() -- ScriptSettingsButton.LocalScript
 		SettingsVisibleTurn.Visible = true
 	end)
 end
-coroutine.wrap(RKXZYFQ_fake_script)()
-local function YBSSYI_fake_script() -- GuiOnTop.SettingsOnTop 
+coroutine.wrap(MQYRDG_fake_script)()
+local function FWGZUT_fake_script() -- GuiOnTop.SettingsOnTop 
 	local script = Instance.new('LocalScript', GuiOnTop)
 
 	GuiOnTop.MouseButton1Down:connect(function()
-		Move.DisplayOrder = 100000000000000000000000000000000000000000000000000000000000000000
+		MaxiGui.DisplayOrder = 100000000000000000000000000000000000000000000000000000000000000000
 	end)
 end
-coroutine.wrap(YBSSYI_fake_script)()
-local function DWTU_fake_script() -- GuiDownBelow.SettingsDownBelow 
+coroutine.wrap(FWGZUT_fake_script)()
+local function HDHG_fake_script() -- GuiDownBelow.SettingsDownBelow 
 	local script = Instance.new('LocalScript', GuiDownBelow)
 
 	GuiDownBelow.MouseButton1Down:connect(function()
-		Move.DisplayOrder = -100000000000000000000000000000000000000000000000000000000000000000
+		MaxiGui.DisplayOrder = -100000000000000000000000000000000000000000000000000000000000000000
 	end)
 end
-coroutine.wrap(DWTU_fake_script)()
-local function BHWSJHL_fake_script() -- FPSCounterText.FPSCounterScript 
+coroutine.wrap(HDHG_fake_script)()
+local function YOSOFUJ_fake_script() -- FPSCounterText.FPSCounterScript 
 	local script = Instance.new('LocalScript', FPSCounterText)
 
 	local fps = 0
@@ -2316,8 +2316,8 @@ local function BHWSJHL_fake_script() -- FPSCounterText.FPSCounterScript
 		fps = 0
 	end
 end
-coroutine.wrap(BHWSJHL_fake_script)()
-local function ZHJYGL_fake_script() -- Move.LocalScript 
+coroutine.wrap(YOSOFUJ_fake_script)()
+local function FOKC_fake_script() -- Move.LocalScript 
 	local script = Instance.new('LocalScript', Move)
 
 	local UIS = game:GetService('UserInputService')
@@ -2389,5 +2389,5 @@ local function ZHJYGL_fake_script() -- Move.LocalScript
 	
 	end)
 end
-coroutine.wrap(ZHJYGL_fake_script)()
+coroutine.wrap(FOKC_fake_script)()
 end
