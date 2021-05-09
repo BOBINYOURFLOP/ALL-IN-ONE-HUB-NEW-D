@@ -2387,3 +2387,4 @@ local function JWNPVZG_fake_script() -- FPSCounterText.FPSCounterScript
 	end
 end
 coroutine.wrap(JWNPVZG_fake_script)()
+end
