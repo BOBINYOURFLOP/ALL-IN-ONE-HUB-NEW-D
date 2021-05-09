@@ -2341,7 +2341,7 @@ coroutine.wrap(ZSZFCL_fake_script)()
 local function EFAP_fake_script() -- ScriptSettingsButton.LocalScript 
 	local script = Instance.new('LocalScript', ScriptSettingsButton)
 
-	ScriptMiscButton.MouseButton1Down:connect(function()
+	ScriptSettingsButton.MouseButton1Down:connect(function()
 		VisibleTurn1.Visible = false
 		TabsVisibleTurn.Visible = false
 		Tab3VisibleTurnHub.Visible = false
