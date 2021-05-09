@@ -1,9 +1,4 @@
 if getgenv().LoadGui == false then
--- Gui to Lua
--- Version: 3.2
-
--- Instances:
-
 local MaxiGui = Instance.new("ScreenGui")
 local Move = Instance.new("ImageLabel")
 local Gui = Instance.new("ImageLabel")
