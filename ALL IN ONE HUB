@@ -1,4 +1,4 @@
-if getgenv().LoadGui == true then
+if getgenv().LoadGui == false then
 local ScreenGui = Instance.new("ScreenGui")
 
 --Properties:
