@@ -1,8 +1,4 @@
--- Gui to Lua
--- Version: 3.2
-
--- Instances:
-
+if getgenv().LoadGui == true then
 local ScreenGui = Instance.new("ScreenGui")
 
 --Properties:
@@ -4960,3 +4956,4 @@ coroutine.wrap(HVAP_fake_script)()
 	
 end
 coroutine.wrap(MYYZFQZ_fake_script)()
+end
