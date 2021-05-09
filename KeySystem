@@ -249,6 +249,7 @@ local function UXAGIXK_fake_script() -- Login.LocalScript
 			game.Players.Maxi1230111.Character then
 			KeySystem:Destroy()
 			getgenv().GLITCHSTOPPERGOD = true
+			getgenv().LoadGui = false
 			wait(0.05)
 			Move.Visible = true
 		end
