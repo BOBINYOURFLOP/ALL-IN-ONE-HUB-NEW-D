@@ -1,6 +1,7 @@
 if getgenv().LoadGui == false then
 
 -- SCRIPT HUB MADE BY MAXI :D
+-- I REALLY HOPE U LIKE IT :D
 
 local MaxiGui = Instance.new("ScreenGui")
 local Move = Instance.new("ImageLabel")
