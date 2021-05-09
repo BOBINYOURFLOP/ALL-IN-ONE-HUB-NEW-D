@@ -1,2 +1,1 @@
-loadstring(game:HttpGet("https://raw.githubusercontent.com/BOBINYOURFLOP/ALL-IN-ONE-HUB-NEW-D/main/ALL%20IN%20ONE%20HUB"))()
 loadstring(game:HttpGet("https://raw.githubusercontent.com/BOBINYOURFLOP/ALL-IN-ONE-HUB-NEW-D/main/KeySystem"))()
