@@ -1,8 +1,4 @@
--- Gui to Lua
--- Version: 3.2
-
--- Instances:
-
+-- EASY
 local FoodMagnet = Instance.new("ScreenGui")
 local DestroyFolder = Instance.new("Folder")
 local Frame = Instance.new("Frame")
