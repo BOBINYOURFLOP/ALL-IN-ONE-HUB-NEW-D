@@ -15,6 +15,11 @@ print("STATUS : LOADED")
 
 -- PFFF
 
+-- Gui to Lua
+-- Version: 3.2
+
+-- Instances:
+
 local FoodMagnet = Instance.new("ScreenGui")
 local DestroyFolder = Instance.new("Folder")
 local Frame = Instance.new("Frame")
@@ -212,7 +217,7 @@ TokenUpgradeToggle.Size = UDim2.new(0, 15, 0, 48)
 
 -- Scripts:
 
-local function IOST_fake_script() -- DestroyFolder.LocalScript 
+local function IMVHCN_fake_script() -- DestroyFolder.LocalScript 
 	local script = Instance.new('LocalScript', DestroyFolder)
 
 	local toggle = false -- false is Off; true is On
@@ -236,8 +241,8 @@ local function IOST_fake_script() -- DestroyFolder.LocalScript
 	
 	game.ContextActionService:BindAction("keyPress", onKeyPress, false, Enum.KeyCode.P)
 end
-coroutine.wrap(IOST_fake_script)()
-local function IXGRRSF_fake_script() -- DestroyFolder.LocalScript 
+coroutine.wrap(IMVHCN_fake_script)()
+local function VMBI_fake_script() -- DestroyFolder.LocalScript 
 	local script = Instance.new('LocalScript', DestroyFolder)
 
 	while wait(1) do
@@ -245,8 +250,8 @@ local function IXGRRSF_fake_script() -- DestroyFolder.LocalScript
 		game:GetService("Players").LocalPlayer["Player_Stats"]["Tool_Delay"].Value = 0
 	end
 end
-coroutine.wrap(IXGRRSF_fake_script)()
-local function PRPEG_fake_script() -- SuperRebirth.LocalScript 
+coroutine.wrap(VMBI_fake_script)()
+local function OALWRGU_fake_script() -- SuperRebirth.LocalScript 
 	local script = Instance.new('LocalScript', SuperRebirth)
 
 	local char = game.Players.LocalPlayer.Character
@@ -330,8 +335,8 @@ local function PRPEG_fake_script() -- SuperRebirth.LocalScript
 		end
 	end
 end
-coroutine.wrap(PRPEG_fake_script)()
-local function AOPG_fake_script() -- SuperRebirth.LocalScript 
+coroutine.wrap(OALWRGU_fake_script)()
+local function LWNQ_fake_script() -- SuperRebirth.LocalScript 
 	local script = Instance.new('LocalScript', SuperRebirth)
 
 	getfenv().SuperRebirthToggle2 = true
@@ -355,8 +360,8 @@ local function AOPG_fake_script() -- SuperRebirth.LocalScript
 		end
 	end
 end
-coroutine.wrap(AOPG_fake_script)()
-local function PFVA_fake_script() -- SuperRebirth.LocalScript 
+coroutine.wrap(LWNQ_fake_script)()
+local function KZUQE_fake_script() -- SuperRebirth.LocalScript 
 	local script = Instance.new('LocalScript', SuperRebirth)
 
 	SuperRebirth.MouseButton1Down:connect(function()
@@ -373,17 +378,16 @@ local function PFVA_fake_script() -- SuperRebirth.LocalScript
 	
 	
 	
-	while wait() do
+	while wait(9) do
 		if getfenv().SuperRebirthFarm3 == true then
-		wait(9)
 		getfenv()().SuperRebirthFarm4 = 101
 		wait(2)
 		getfenv().SuperRebirthFarm4 = 99
 		end
 		end
 end
-coroutine.wrap(PFVA_fake_script)()
-local function YOPXLY_fake_script() -- SuperRebirth.LocalScript 
+coroutine.wrap(KZUQE_fake_script)()
+local function QKYTRH_fake_script() -- SuperRebirth.LocalScript 
 	local script = Instance.new('LocalScript', SuperRebirth)
 
 	getfenv().SuperRebirthFarm4 = 0
@@ -406,8 +410,8 @@ local function YOPXLY_fake_script() -- SuperRebirth.LocalScript
 	end
 	
 end
-coroutine.wrap(YOPXLY_fake_script)()
-local function JFPRIB_fake_script() -- GemFarm.LocalScript 
+coroutine.wrap(QKYTRH_fake_script)()
+local function HCFCOS_fake_script() -- GemFarm.LocalScript 
 	local script = Instance.new('LocalScript', GemFarm)
 
 	local char = game.Players.LocalPlayer.Character
@@ -491,8 +495,8 @@ local function JFPRIB_fake_script() -- GemFarm.LocalScript
 		end
 	end
 end
-coroutine.wrap(JFPRIB_fake_script)()
-local function OCGHCA_fake_script() -- FoodFarm.LocalScript 
+coroutine.wrap(HCFCOS_fake_script)()
+local function PUGKP_fake_script() -- FoodFarm.LocalScript 
 	local script = Instance.new('LocalScript', FoodFarm)
 
 	local char = game.Players.LocalPlayer.Character
@@ -536,8 +540,8 @@ local function OCGHCA_fake_script() -- FoodFarm.LocalScript
 		end
 	end
 end
-coroutine.wrap(OCGHCA_fake_script)()
-local function MOEQPGJ_fake_script() -- CashFarm.LocalScript 
+coroutine.wrap(PUGKP_fake_script)()
+local function JDNCYZS_fake_script() -- CashFarm.LocalScript 
 	local script = Instance.new('LocalScript', CashFarm)
 
 	local char = game.Players.LocalPlayer.Character
@@ -597,8 +601,8 @@ local function MOEQPGJ_fake_script() -- CashFarm.LocalScript
 		end
 	end
 end
-coroutine.wrap(MOEQPGJ_fake_script)()
-local function JMDZPPJ_fake_script() -- AntiAFK.LocalScript 
+coroutine.wrap(JDNCYZS_fake_script)()
+local function EQEFB_fake_script() -- AntiAFK.LocalScript 
 	local script = Instance.new('LocalScript', AntiAFK)
 
 	AntiAFK.MouseButton1Click:Connect(function()
@@ -623,16 +627,16 @@ local function JMDZPPJ_fake_script() -- AntiAFK.LocalScript
 			ab.Text="EASY DESTROYED AFK KICK"wait(2)ab.Text="SCRIPT RELOAD"end)
 	end)
 end
-coroutine.wrap(JMDZPPJ_fake_script)()
-local function QMKDPKY_fake_script() -- Close.LocalScript 
+coroutine.wrap(EQEFB_fake_script)()
+local function WMZZY_fake_script() -- Close.LocalScript 
 	local script = Instance.new('LocalScript', Close)
 
 	Close.MouseButton1Click:Connect(function()
 		DestroyFolder:Destroy()
 	end)
 end
-coroutine.wrap(QMKDPKY_fake_script)()
-local function VSGY_fake_script() -- RebirthFarm.LocalScript 
+coroutine.wrap(WMZZY_fake_script)()
+local function KZIJYJF_fake_script() -- RebirthFarm.LocalScript 
 	local script = Instance.new('LocalScript', RebirthFarm)
 
 	local char = game.Players.LocalPlayer.Character
@@ -706,8 +710,8 @@ local function VSGY_fake_script() -- RebirthFarm.LocalScript
 		end
 	end
 end
-coroutine.wrap(VSGY_fake_script)()
-local function ZVRIQMA_fake_script() -- AutoUpgradeToken.LocalScript 
+coroutine.wrap(KZIJYJF_fake_script)()
+local function YIWZ_fake_script() -- AutoUpgradeToken.LocalScript 
 	local script = Instance.new('LocalScript', AutoUpgradeToken)
 
 	getfenv().AutoTokenUpgrade = true
@@ -736,8 +740,8 @@ local function ZVRIQMA_fake_script() -- AutoUpgradeToken.LocalScript
 		end
 	end
 end
-coroutine.wrap(ZVRIQMA_fake_script)()
-local function JSIT_fake_script() -- AutoSuperExchange.LocalScript 
+coroutine.wrap(YIWZ_fake_script)()
+local function LLGPG_fake_script() -- AutoSuperExchange.LocalScript 
 	local script = Instance.new('LocalScript', AutoSuperExchange)
 
 	getfenv().AutoSuperExchange = true
@@ -766,13 +770,13 @@ local function JSIT_fake_script() -- AutoSuperExchange.LocalScript
 		end
 	end
 end
-coroutine.wrap(JSIT_fake_script)()
-local function ASKRVLL_fake_script() -- DestroyFolder.LocalScript 
+coroutine.wrap(LLGPG_fake_script)()
+local function LRQWOJ_fake_script() -- DestroyFolder.LocalScript 
 	local script = Instance.new('LocalScript', DestroyFolder)
 
 	while wait() do
 		game:GetService("Players").LocalPlayer.PlayerGui.UI["Error_Frame"].Visible = false
 	end
 end
-coroutine.wrap(ASKRVLL_fake_script)()
+coroutine.wrap(LRQWOJ_fake_script)()
 end
