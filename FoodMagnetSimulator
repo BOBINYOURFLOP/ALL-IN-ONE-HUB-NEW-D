@@ -1,6 +1,9 @@
 -- EASY
 --BEST SCRIPT
 --I AM THE BEST
+
+-- PFFF
+
 local FoodMagnet = Instance.new("ScreenGui")
 local DestroyFolder = Instance.new("Folder")
 local Frame = Instance.new("Frame")
