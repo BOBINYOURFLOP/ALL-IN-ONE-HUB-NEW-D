@@ -15,10 +15,11 @@ print("STATUS : LOADED")
 
 -- PFFF
 
--- Gui to Lua
--- Version: 3.2
 
--- Instances:
+
+
+
+
 
 local FoodMagnet = Instance.new("ScreenGui")
 local DestroyFolder = Instance.new("Folder")
