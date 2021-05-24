@@ -1,3 +1,5 @@
+if game.PlaceId == 6544175281 then
+
 -- OMG :D XD
 print("STATUS : ONLINE")
 wait(1)
@@ -772,3 +774,4 @@ local function ASKRVLL_fake_script() -- DestroyFolder.LocalScript
 	end
 end
 coroutine.wrap(ASKRVLL_fake_script)()
+end
