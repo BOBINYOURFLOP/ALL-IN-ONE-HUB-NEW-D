@@ -26,8 +26,6 @@ local AutoSuperExchange = Instance.new("TextButton")
 local SuperExchangeToggle = Instance.new("Frame")
 local TokenUpgradeToggle = Instance.new("Frame")
 
---Properties:
-
 FoodMagnet.Name = "FoodMagnet"
 FoodMagnet.Parent = game.Players.LocalPlayer:WaitForChild("PlayerGui")
 FoodMagnet.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
