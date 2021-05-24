@@ -1,3 +1,10 @@
+print("STATUS : ONLINE")
+wait(1)
+print("SCRIPT : WORKING")
+wait(1)
+print("STATUS : RUN")
+wait(1)
+print("STATUS : LOADED")
 -- EASY
 --BEST SCRIPT
 --I AM THE BEST
