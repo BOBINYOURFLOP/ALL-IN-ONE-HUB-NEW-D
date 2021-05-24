@@ -1,3 +1,8 @@
+-- Gui to Lua
+-- Version: 3.2
+
+-- Instances:
+
 local FoodMagnet = Instance.new("ScreenGui")
 local DestroyFolder = Instance.new("Folder")
 local Frame = Instance.new("Frame")
@@ -20,6 +25,7 @@ local AutoSuperExchange = Instance.new("TextButton")
 local SuperExchangeToggle = Instance.new("Frame")
 local TokenUpgradeToggle = Instance.new("Frame")
 
+--Properties:
 
 FoodMagnet.Name = "FoodMagnet"
 FoodMagnet.Parent = game.Players.LocalPlayer:WaitForChild("PlayerGui")
@@ -194,7 +200,7 @@ TokenUpgradeToggle.Size = UDim2.new(0, 15, 0, 48)
 
 -- Scripts:
 
-local function XLYTZEU_fake_script() -- DestroyFolder.LocalScript 
+local function WDVDJY_fake_script() -- DestroyFolder.LocalScript 
 	local script = Instance.new('LocalScript', DestroyFolder)
 
 	local toggle = false -- false is Off; true is On
@@ -218,8 +224,8 @@ local function XLYTZEU_fake_script() -- DestroyFolder.LocalScript
 	
 	game.ContextActionService:BindAction("keyPress", onKeyPress, false, Enum.KeyCode.P)
 end
-coroutine.wrap(XLYTZEU_fake_script)()
-local function OLVR_fake_script() -- DestroyFolder.LocalScript 
+coroutine.wrap(WDVDJY_fake_script)()
+local function WYFCIGZ_fake_script() -- DestroyFolder.LocalScript 
 	local script = Instance.new('LocalScript', DestroyFolder)
 
 	while wait(1) do
@@ -227,8 +233,8 @@ local function OLVR_fake_script() -- DestroyFolder.LocalScript
 		game:GetService("Players").LocalPlayer["Player_Stats"]["Tool_Delay"].Value = 0
 	end
 end
-coroutine.wrap(OLVR_fake_script)()
-local function PTBYIND_fake_script() -- SuperRebirth.LocalScript 
+coroutine.wrap(WYFCIGZ_fake_script)()
+local function FLKMX_fake_script() -- SuperRebirth.LocalScript 
 	local script = Instance.new('LocalScript', SuperRebirth)
 
 	local char = game.Players.LocalPlayer.Character
@@ -312,8 +318,8 @@ local function PTBYIND_fake_script() -- SuperRebirth.LocalScript
 		end
 	end
 end
-coroutine.wrap(PTBYIND_fake_script)()
-local function JTKLVSM_fake_script() -- SuperRebirth.LocalScript 
+coroutine.wrap(FLKMX_fake_script)()
+local function NWXXGIX_fake_script() -- SuperRebirth.LocalScript 
 	local script = Instance.new('LocalScript', SuperRebirth)
 
 	getfenv().SuperRebirthToggle2 = true
@@ -337,8 +343,8 @@ local function JTKLVSM_fake_script() -- SuperRebirth.LocalScript
 		end
 	end
 end
-coroutine.wrap(JTKLVSM_fake_script)()
-local function XTUL_fake_script() -- GemFarm.LocalScript 
+coroutine.wrap(NWXXGIX_fake_script)()
+local function SKOIEGO_fake_script() -- GemFarm.LocalScript 
 	local script = Instance.new('LocalScript', GemFarm)
 
 	local char = game.Players.LocalPlayer.Character
@@ -422,8 +428,8 @@ local function XTUL_fake_script() -- GemFarm.LocalScript
 		end
 	end
 end
-coroutine.wrap(XTUL_fake_script)()
-local function VXEK_fake_script() -- FoodFarm.LocalScript 
+coroutine.wrap(SKOIEGO_fake_script)()
+local function SLXFR_fake_script() -- FoodFarm.LocalScript 
 	local script = Instance.new('LocalScript', FoodFarm)
 
 	local char = game.Players.LocalPlayer.Character
@@ -467,8 +473,8 @@ local function VXEK_fake_script() -- FoodFarm.LocalScript
 		end
 	end
 end
-coroutine.wrap(VXEK_fake_script)()
-local function XFQC_fake_script() -- CashFarm.LocalScript 
+coroutine.wrap(SLXFR_fake_script)()
+local function EWVWUXH_fake_script() -- CashFarm.LocalScript 
 	local script = Instance.new('LocalScript', CashFarm)
 
 	local char = game.Players.LocalPlayer.Character
@@ -528,8 +534,8 @@ local function XFQC_fake_script() -- CashFarm.LocalScript
 		end
 	end
 end
-coroutine.wrap(XFQC_fake_script)()
-local function OKOHWS_fake_script() -- AntiAFK.LocalScript 
+coroutine.wrap(EWVWUXH_fake_script)()
+local function ADLAJSW_fake_script() -- AntiAFK.LocalScript 
 	local script = Instance.new('LocalScript', AntiAFK)
 
 	AntiAFK.MouseButton1Click:Connect(function()
@@ -554,16 +560,16 @@ local function OKOHWS_fake_script() -- AntiAFK.LocalScript
 			ab.Text="EASY DESTROYED AFK KICK"wait(2)ab.Text="SCRIPT RELOAD"end)
 	end)
 end
-coroutine.wrap(OKOHWS_fake_script)()
-local function KZIA_fake_script() -- Close.LocalScript 
+coroutine.wrap(ADLAJSW_fake_script)()
+local function WHMBX_fake_script() -- Close.LocalScript 
 	local script = Instance.new('LocalScript', Close)
 
 	Close.MouseButton1Click:Connect(function()
 		DestroyFolder:Destroy()
 	end)
 end
-coroutine.wrap(KZIA_fake_script)()
-local function ZQLWMI_fake_script() -- RebirthFarm.LocalScript 
+coroutine.wrap(WHMBX_fake_script)()
+local function NHANBXP_fake_script() -- RebirthFarm.LocalScript 
 	local script = Instance.new('LocalScript', RebirthFarm)
 
 	local char = game.Players.LocalPlayer.Character
@@ -637,8 +643,8 @@ local function ZQLWMI_fake_script() -- RebirthFarm.LocalScript
 		end
 	end
 end
-coroutine.wrap(ZQLWMI_fake_script)()
-local function KRTSKXA_fake_script() -- AutoUpgradeToken.LocalScript 
+coroutine.wrap(NHANBXP_fake_script)()
+local function FWYIU_fake_script() -- AutoUpgradeToken.LocalScript 
 	local script = Instance.new('LocalScript', AutoUpgradeToken)
 
 	getfenv().AutoTokenUpgrade = true
@@ -667,8 +673,8 @@ local function KRTSKXA_fake_script() -- AutoUpgradeToken.LocalScript
 		end
 	end
 end
-coroutine.wrap(KRTSKXA_fake_script)()
-local function LPCXAG_fake_script() -- AutoSuperExchange.LocalScript 
+coroutine.wrap(FWYIU_fake_script)()
+local function MATBI_fake_script() -- AutoSuperExchange.LocalScript 
 	local script = Instance.new('LocalScript', AutoSuperExchange)
 
 	getfenv().AutoSuperExchange = true
@@ -697,15 +703,12 @@ local function LPCXAG_fake_script() -- AutoSuperExchange.LocalScript
 		end
 	end
 end
-coroutine.wrap(LPCXAG_fake_script)()
-local function GCIPPSS_fake_script() -- DestroyFolder.LocalScript 
+coroutine.wrap(MATBI_fake_script)()
+local function GQBGS_fake_script() -- DestroyFolder.LocalScript 
 	local script = Instance.new('LocalScript', DestroyFolder)
 
-	-- THIS MAKE UR RANGE BIG AND NO TOOL COOLDOWN U NO NEED ANYMORE BUY A TOOL FOR RANKE 
-	-- CREDITS : Maxi
-	-- DONT MAKE HIGHER RANGE THEN 150
-	while wait(0.01) do
-		game:GetService("Players").LocalPlayer["Player_Stats"]["Tool_Delay"].Value = -1110
+	while wait() do
+		game:GetService("Players").LocalPlayer.PlayerGui.UI["Error_Frame"].Visible = false
 	end
 end
-coroutine.wrap(GCIPPSS_fake_script)()
+coroutine.wrap(GQBGS_fake_script)()
