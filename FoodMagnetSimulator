@@ -9,18 +9,6 @@ wait(1)
 print("STATUS : RUN")
 wait(1)
 print("STATUS : LOADED")
--- EASY
---BEST SCRIPT
---I AM THE BEST
--- PFFF
-
-
-
-
-
-
-
--- I AM HAPPY
 local FoodMagnet = Instance.new("ScreenGui")
 local DestroyFolder = Instance.new("Folder")
 local Frame = Instance.new("Frame")
@@ -32,16 +20,17 @@ local GemFarmToggle = Instance.new("Frame")
 local SuperRebirthFarmToggle = Instance.new("Frame")
 local FoodFarmToggle = Instance.new("Frame")
 local CashFarmToggle = Instance.new("Frame")
-local Frame2 = Instance.new("Frame")
-local AntiAFK = Instance.new("TextButton")
-local Close = Instance.new("TextButton")
-local RebirthFarm = Instance.new("TextButton")
-local RebirthFarmToggle = Instance.new("Frame")
 local Frame3 = Instance.new("Frame")
 local AutoUpgradeToken = Instance.new("TextButton")
 local AutoSuperExchange = Instance.new("TextButton")
 local SuperExchangeToggle = Instance.new("Frame")
 local TokenUpgradeToggle = Instance.new("Frame")
+local Frame2 = Instance.new("Frame")
+local AntiAFK = Instance.new("TextButton")
+local Close = Instance.new("TextButton")
+local RebirthFarm = Instance.new("TextButton")
+local AntiAFKToggle = Instance.new("Frame")
+local RebirthFarmToggle = Instance.new("Frame")
 
 --Properties:
 
@@ -126,54 +115,6 @@ CashFarmToggle.BackgroundColor3 = Color3.fromRGB(170, 0, 0)
 CashFarmToggle.Position = UDim2.new(0.761682332, 0, 0, 0)
 CashFarmToggle.Size = UDim2.new(0, 15, 0, 50)
 
-Frame2.Name = "Frame2"
-Frame2.Parent = DestroyFolder
-Frame2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-Frame2.BorderSizePixel = 0
-Frame2.Position = UDim2.new(0.331770808, 0, 0.0539053902, 0)
-Frame2.Size = UDim2.new(0, 646, 0, 49)
-
-AntiAFK.Name = "AntiAFK"
-AntiAFK.Parent = Frame2
-AntiAFK.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-AntiAFK.BackgroundTransparency = 1.000
-AntiAFK.BorderSizePixel = 0
-AntiAFK.Position = UDim2.new(0.65781194, 0, -0.0204081628, 0)
-AntiAFK.Size = UDim2.new(0, 200, 0, 50)
-AntiAFK.Font = Enum.Font.SourceSans
-AntiAFK.Text = "AntiAFK"
-AntiAFK.TextColor3 = Color3.fromRGB(0, 0, 0)
-AntiAFK.TextSize = 40.000
-
-Close.Name = "Close"
-Close.Parent = Frame2
-Close.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-Close.BackgroundTransparency = 1.000
-Close.Position = UDim2.new(0.346749216, 0, 0, 0)
-Close.Size = UDim2.new(0, 200, 0, 50)
-Close.Font = Enum.Font.SourceSans
-Close.Text = "Close"
-Close.TextColor3 = Color3.fromRGB(0, 0, 0)
-Close.TextSize = 40.000
-
-RebirthFarm.Name = "RebirthFarm"
-RebirthFarm.Parent = Frame2
-RebirthFarm.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-RebirthFarm.BackgroundTransparency = 1.000
-RebirthFarm.BorderSizePixel = 0
-RebirthFarm.Position = UDim2.new(0.0191459451, 0, 2.98023224e-08, 0)
-RebirthFarm.Size = UDim2.new(0, 200, 0, 50)
-RebirthFarm.Font = Enum.Font.SourceSans
-RebirthFarm.Text = "Rebirth Farm"
-RebirthFarm.TextColor3 = Color3.fromRGB(0, 0, 0)
-RebirthFarm.TextSize = 40.000
-
-RebirthFarmToggle.Name = "RebirthFarmToggle"
-RebirthFarmToggle.Parent = Frame2
-RebirthFarmToggle.BackgroundColor3 = Color3.fromRGB(170, 0, 0)
-RebirthFarmToggle.Position = UDim2.new(-0.0030236023, 0, 0.0816326514, 0)
-RebirthFarmToggle.Size = UDim2.new(0, 15, 0, 45)
-
 Frame3.Name = "Frame3"
 Frame3.Parent = DestroyFolder
 Frame3.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
@@ -216,9 +157,63 @@ TokenUpgradeToggle.BackgroundColor3 = Color3.fromRGB(170, 0, 0)
 TokenUpgradeToggle.Position = UDim2.new(0.551155925, 0, 0.0313194431, 0)
 TokenUpgradeToggle.Size = UDim2.new(0, 15, 0, 48)
 
+Frame2.Name = "Frame2"
+Frame2.Parent = DestroyFolder
+Frame2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Frame2.BorderSizePixel = 0
+Frame2.Position = UDim2.new(0.331770808, 0, 0.0539053902, 0)
+Frame2.Size = UDim2.new(0, 646, 0, 49)
+
+AntiAFK.Name = "AntiAFK"
+AntiAFK.Parent = Frame2
+AntiAFK.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+AntiAFK.BackgroundTransparency = 1.000
+AntiAFK.BorderSizePixel = 0
+AntiAFK.Position = UDim2.new(0.65781194, 0, -0.0204081628, 0)
+AntiAFK.Size = UDim2.new(0, 200, 0, 50)
+AntiAFK.Font = Enum.Font.SourceSans
+AntiAFK.Text = "AntiAFK"
+AntiAFK.TextColor3 = Color3.fromRGB(0, 0, 0)
+AntiAFK.TextSize = 40.000
+
+Close.Name = "Close"
+Close.Parent = Frame2
+Close.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Close.BackgroundTransparency = 1.000
+Close.Position = UDim2.new(0.346749216, 0, 0, 0)
+Close.Size = UDim2.new(0, 200, 0, 50)
+Close.Font = Enum.Font.SourceSans
+Close.Text = "Close"
+Close.TextColor3 = Color3.fromRGB(0, 0, 0)
+Close.TextSize = 40.000
+
+RebirthFarm.Name = "RebirthFarm"
+RebirthFarm.Parent = Frame2
+RebirthFarm.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+RebirthFarm.BackgroundTransparency = 1.000
+RebirthFarm.BorderSizePixel = 0
+RebirthFarm.Position = UDim2.new(0.0191459451, 0, 2.98023224e-08, 0)
+RebirthFarm.Size = UDim2.new(0, 200, 0, 50)
+RebirthFarm.Font = Enum.Font.SourceSans
+RebirthFarm.Text = "Rebirth Farm"
+RebirthFarm.TextColor3 = Color3.fromRGB(0, 0, 0)
+RebirthFarm.TextSize = 40.000
+
+AntiAFKToggle.Name = "AntiAFKToggle"
+AntiAFKToggle.Parent = Frame2
+AntiAFKToggle.BackgroundColor3 = Color3.fromRGB(170, 0, 0)
+AntiAFKToggle.Position = UDim2.new(0.699762702, 0, 0.0408163257, 0)
+AntiAFKToggle.Size = UDim2.new(0, 15, 0, 45)
+
+RebirthFarmToggle.Name = "RebirthFarmToggle"
+RebirthFarmToggle.Parent = Frame2
+RebirthFarmToggle.BackgroundColor3 = Color3.fromRGB(170, 0, 0)
+RebirthFarmToggle.Position = UDim2.new(-0.00147561461, 0, 0.0408163257, 0)
+RebirthFarmToggle.Size = UDim2.new(0, 15, 0, 45)
+
 -- Scripts:
 
-local function BOXNVWL_fake_script() -- DestroyFolder.LocalScript 
+local function QINA_fake_script() -- DestroyFolder.LocalScript 
 	local script = Instance.new('LocalScript', DestroyFolder)
 
 	local toggle = false -- false is Off; true is On
@@ -242,8 +237,8 @@ local function BOXNVWL_fake_script() -- DestroyFolder.LocalScript
 	
 	game.ContextActionService:BindAction("keyPress", onKeyPress, false, Enum.KeyCode.P)
 end
-coroutine.wrap(BOXNVWL_fake_script)()
-local function CZLTHYR_fake_script() -- DestroyFolder.LocalScript 
+coroutine.wrap(QINA_fake_script)()
+local function QAMNEOX_fake_script() -- DestroyFolder.LocalScript 
 	local script = Instance.new('LocalScript', DestroyFolder)
 
 	while wait(1) do
@@ -251,8 +246,8 @@ local function CZLTHYR_fake_script() -- DestroyFolder.LocalScript
 		game:GetService("Players").LocalPlayer["Player_Stats"]["Tool_Delay"].Value = 0
 	end
 end
-coroutine.wrap(CZLTHYR_fake_script)()
-local function YPFMWE_fake_script() -- SuperRebirth.LocalScript 
+coroutine.wrap(QAMNEOX_fake_script)()
+local function SYBFWRU_fake_script() -- SuperRebirth.LocalScript 
 	local script = Instance.new('LocalScript', SuperRebirth)
 
 	local char = game.Players.LocalPlayer.Character
@@ -336,8 +331,8 @@ local function YPFMWE_fake_script() -- SuperRebirth.LocalScript
 		end
 	end
 end
-coroutine.wrap(YPFMWE_fake_script)()
-local function EQTNPB_fake_script() -- SuperRebirth.LocalScript 
+coroutine.wrap(SYBFWRU_fake_script)()
+local function EXQE_fake_script() -- SuperRebirth.LocalScript 
 	local script = Instance.new('LocalScript', SuperRebirth)
 
 	getfenv().SuperRebirthToggle2 = true
@@ -361,8 +356,8 @@ local function EQTNPB_fake_script() -- SuperRebirth.LocalScript
 		end
 	end
 end
-coroutine.wrap(EQTNPB_fake_script)()
-local function ZLHHR_fake_script() -- SuperRebirth.LocalScript 
+coroutine.wrap(EXQE_fake_script)()
+local function EOBHBJF_fake_script() -- SuperRebirth.LocalScript 
 	local script = Instance.new('LocalScript', SuperRebirth)
 
 	while wait() do
@@ -372,8 +367,8 @@ local function ZLHHR_fake_script() -- SuperRebirth.LocalScript
 		getfenv().EASYPEASYLOL = 99
 		end
 end
-coroutine.wrap(ZLHHR_fake_script)()
-local function SOQOB_fake_script() -- SuperRebirth.LocalScript 
+coroutine.wrap(EOBHBJF_fake_script)()
+local function DNOK_fake_script() -- SuperRebirth.LocalScript 
 	local script = Instance.new('LocalScript', SuperRebirth)
 
 	getfenv().EASYPEASYLOL = 0
@@ -401,8 +396,8 @@ local function SOQOB_fake_script() -- SuperRebirth.LocalScript
 		end
 		end
 end
-coroutine.wrap(SOQOB_fake_script)()
-local function YVAQW_fake_script() -- GemFarm.LocalScript 
+coroutine.wrap(DNOK_fake_script)()
+local function FWOL_fake_script() -- GemFarm.LocalScript 
 	local script = Instance.new('LocalScript', GemFarm)
 
 	local char = game.Players.LocalPlayer.Character
@@ -486,8 +481,8 @@ local function YVAQW_fake_script() -- GemFarm.LocalScript
 		end
 	end
 end
-coroutine.wrap(YVAQW_fake_script)()
-local function UBOUFG_fake_script() -- FoodFarm.LocalScript 
+coroutine.wrap(FWOL_fake_script)()
+local function KTENT_fake_script() -- FoodFarm.LocalScript 
 	local script = Instance.new('LocalScript', FoodFarm)
 
 	local char = game.Players.LocalPlayer.Character
@@ -531,8 +526,8 @@ local function UBOUFG_fake_script() -- FoodFarm.LocalScript
 		end
 	end
 end
-coroutine.wrap(UBOUFG_fake_script)()
-local function RJNB_fake_script() -- CashFarm.LocalScript 
+coroutine.wrap(KTENT_fake_script)()
+local function PTJC_fake_script() -- CashFarm.LocalScript 
 	local script = Instance.new('LocalScript', CashFarm)
 
 	local char = game.Players.LocalPlayer.Character
@@ -592,42 +587,116 @@ local function RJNB_fake_script() -- CashFarm.LocalScript
 		end
 	end
 end
-coroutine.wrap(RJNB_fake_script)()
-local function DDBBH_fake_script() -- AntiAFK.LocalScript 
+coroutine.wrap(PTJC_fake_script)()
+local function ULNQW_fake_script() -- AutoUpgradeToken.LocalScript 
+	local script = Instance.new('LocalScript', AutoUpgradeToken)
+
+	getfenv().AutoTokenUpgrade = true
+	
+	AutoUpgradeToken.MouseButton1Down:connect(function()
+		if getfenv().AutoTokenUpgrade == true then
+			TokenUpgradeToggle.BackgroundColor3 = Color3.fromRGB(0, 170, 0)
+			getfenv().TokenUpgrade = true
+			getfenv().AutoTokenUpgrade = false
+		else
+			if getfenv().AutoTokenUpgrade == false then
+				TokenUpgradeToggle.BackgroundColor3 = Color3.fromRGB(170, 0, 0)
+				getfenv().TokenUpgrade = false
+				getfenv().AutoTokenUpgrade = true
+			end
+		end
+	end)
+	
+	
+	
+	while wait() do
+		if getfenv().TokenUpgrade == true then
+			wait()
+			local Event = game:GetService("ReplicatedStorage")["Game_Service"]["Remotes_Event"].Tokens
+			Event:FireServer()
+		end
+	end
+end
+coroutine.wrap(ULNQW_fake_script)()
+local function JNSIZRF_fake_script() -- AutoSuperExchange.LocalScript 
+	local script = Instance.new('LocalScript', AutoSuperExchange)
+
+	getfenv().AutoSuperExchange = true
+	
+	AutoSuperExchange.MouseButton1Down:connect(function()
+		if getfenv().AutoSuperExchange == true then
+			SuperExchangeToggle.BackgroundColor3 = Color3.fromRGB(0, 170, 0)
+			getfenv().SuperExchange = true
+			getfenv().AutoSuperExchange = false
+		else
+			if getfenv().AutoSuperExchange == false then
+				SuperExchangeToggle.BackgroundColor3 = Color3.fromRGB(170, 0, 0)
+				getfenv().SuperExchange = false
+				getfenv().AutoSuperExchange = true
+			end
+		end
+	end)
+	
+	
+	
+	while wait() do
+		if getfenv().SuperExchange == true then
+			wait()
+			local Event = game:GetService("ReplicatedStorage")["Game_Service"]["Remotes_Event"]["Super_Exchange"]
+			Event:FireServer()
+		end
+	end
+end
+coroutine.wrap(JNSIZRF_fake_script)()
+local function UGFGCGT_fake_script() -- DestroyFolder.LocalScript 
+	local script = Instance.new('LocalScript', DestroyFolder)
+
+	while wait() do
+		game:GetService("Players").LocalPlayer.PlayerGui.UI["Error_Frame"].Visible = false
+	end
+end
+coroutine.wrap(UGFGCGT_fake_script)()
+local function NQDPF_fake_script() -- AntiAFK.LocalScript 
 	local script = Instance.new('LocalScript', AntiAFK)
 
-	AntiAFK.MouseButton1Click:Connect(function()
-	wait(0.5)local ba=Instance.new("ScreenGui")
-	local ca=Instance.new("TextLabel")local da=Instance.new("Frame")
-	local _b=Instance.new("TextLabel")local ab=Instance.new("TextLabel")ba.Parent=game.CoreGui
-	ba.ZIndexBehavior=Enum.ZIndexBehavior.Sibling;ca.Parent=ba;ca.Active=true
-	ca.BackgroundColor3=Color3.new(0.176471,0.176471,0.176471)ca.Draggable=true
-	ca.Position=UDim2.new(0.698610067,0,0.098096624,0)ca.Size=UDim2.new(0,304,0,52)
-	ca.Font=Enum.Font.SourceSansSemibold;ca.Text="Anti AFK"ca.TextColor3=Color3.new(0,1,1)
-	ca.TextSize=22;da.Parent=ca
-	da.BackgroundColor3=Color3.new(0.196078,0.196078,0.196078)da.Position=UDim2.new(0,0,1.0192306,0)
-	da.Size=UDim2.new(0,304,0,107)_b.Parent=da
-	_b.BackgroundColor3=Color3.new(0.176471,0.176471,0.176471)_b.Position=UDim2.new(0,0,0.800455689,0)
-	_b.Size=UDim2.new(0,304,0,21)_b.Font=Enum.Font.Arial;_b.Text="Made By IDK"
-	_b.TextColor3=Color3.new(1,1,1)_b.TextSize=20;ab.Parent=da
-	ab.BackgroundColor3=Color3.new(0.176471,0.176471,0.176471)ab.Position=UDim2.new(0,0,0.158377379,0)
-	ab.Size=UDim2.new(0,304,0,44)ab.Font=Enum.Font.ArialBold;ab.Text="Status : ONLINE"
-	ab.TextColor3=Color3.new(1,1,1)ab.TextSize=20;local bb=game:service'VirtualUser'
-	game:service'Players'.LocalPlayer.Idled:connect(function()
-		bb:CaptureController()bb:ClickButton2(Vector2.new())
-			ab.Text="EASY DESTROYED AFK KICK"wait(2)ab.Text="SCRIPT RELOAD"end)
-	end)
+		getfenv().AntiAFKToggle = true
+	
+	AntiAFK.MouseButton1Down:connect(function()
+			if getfenv().AntiAFKToggle == true then
+			AntiAFKToggle.BackgroundColor3 = Color3.fromRGB(0, 170, 0)
+			getfenv().AntiAFK = true
+				getfenv().AntiAFKToggle = false
+			else
+				if getfenv().AntiAFKToggle == false then
+				AntiAFKToggle.BackgroundColor3 = Color3.fromRGB(170, 0, 0)
+					getfenv().AntiAFK = false
+					getfenv().AntiAFKToggle = true
+				end
+			end
+		end)
+	
+	local virtualUser = game:GetService('VirtualUser')
+	virtualUser:CaptureController()
+	
+	
+	while wait() do
+		if getfenv().AntiAFK == true then
+		virtualUser:SetKeyDown('0x1f')
+		wait(2)
+		virtualUser:SetKeyUp('0x1f')
+		end
+	end
 end
-coroutine.wrap(DDBBH_fake_script)()
-local function UTNZCK_fake_script() -- Close.LocalScript 
+coroutine.wrap(NQDPF_fake_script)()
+local function QMDI_fake_script() -- Close.LocalScript 
 	local script = Instance.new('LocalScript', Close)
 
 	Close.MouseButton1Click:Connect(function()
 		DestroyFolder:Destroy()
 	end)
 end
-coroutine.wrap(UTNZCK_fake_script)()
-local function NEQNXE_fake_script() -- RebirthFarm.LocalScript 
+coroutine.wrap(QMDI_fake_script)()
+local function OTAJVP_fake_script() -- RebirthFarm.LocalScript 
 	local script = Instance.new('LocalScript', RebirthFarm)
 
 	local char = game.Players.LocalPlayer.Character
@@ -701,73 +770,5 @@ local function NEQNXE_fake_script() -- RebirthFarm.LocalScript
 		end
 	end
 end
-coroutine.wrap(NEQNXE_fake_script)()
-local function UNMD_fake_script() -- AutoUpgradeToken.LocalScript 
-	local script = Instance.new('LocalScript', AutoUpgradeToken)
-
-	getfenv().AutoTokenUpgrade = true
-	
-	AutoUpgradeToken.MouseButton1Down:connect(function()
-		if getfenv().AutoTokenUpgrade == true then
-			TokenUpgradeToggle.BackgroundColor3 = Color3.fromRGB(0, 170, 0)
-			getfenv().TokenUpgrade = true
-			getfenv().AutoTokenUpgrade = false
-		else
-			if getfenv().AutoTokenUpgrade == false then
-				TokenUpgradeToggle.BackgroundColor3 = Color3.fromRGB(170, 0, 0)
-				getfenv().TokenUpgrade = false
-				getfenv().AutoTokenUpgrade = true
-			end
-		end
-	end)
-	
-	
-	
-	while wait() do
-		if getfenv().TokenUpgrade == true then
-			wait()
-			local Event = game:GetService("ReplicatedStorage")["Game_Service"]["Remotes_Event"].Tokens
-			Event:FireServer()
-		end
-	end
-end
-coroutine.wrap(UNMD_fake_script)()
-local function FBPD_fake_script() -- AutoSuperExchange.LocalScript 
-	local script = Instance.new('LocalScript', AutoSuperExchange)
-
-	getfenv().AutoSuperExchange = true
-	
-	AutoSuperExchange.MouseButton1Down:connect(function()
-		if getfenv().AutoSuperExchange == true then
-			SuperExchangeToggle.BackgroundColor3 = Color3.fromRGB(0, 170, 0)
-			getfenv().SuperExchange = true
-			getfenv().AutoSuperExchange = false
-		else
-			if getfenv().AutoSuperExchange == false then
-				SuperExchangeToggle.BackgroundColor3 = Color3.fromRGB(170, 0, 0)
-				getfenv().SuperExchange = false
-				getfenv().AutoSuperExchange = true
-			end
-		end
-	end)
-	
-	
-	
-	while wait() do
-		if getfenv().SuperExchange == true then
-			wait()
-			local Event = game:GetService("ReplicatedStorage")["Game_Service"]["Remotes_Event"]["Super_Exchange"]
-			Event:FireServer()
-		end
-	end
-end
-coroutine.wrap(FBPD_fake_script)()
-local function JQEDMTK_fake_script() -- DestroyFolder.LocalScript 
-	local script = Instance.new('LocalScript', DestroyFolder)
-
-	while wait() do
-		game:GetService("Players").LocalPlayer.PlayerGui.UI["Error_Frame"].Visible = false
-	end
-end
-coroutine.wrap(JQEDMTK_fake_script)()
+coroutine.wrap(OTAJVP_fake_script)()
 end
