@@ -1,13 +1,14 @@
 if game.PlaceId == 6544175281 then -- ONLY FOR THIS GAME :D
 
--- OMG :D XD
-print("STATUS : ONLINE")
-wait(1)
-print("SCRIPT : WORKING")
-wait(1)
-print("STATUS : RUN")
-wait(1)
-print("STATUS : LOADED")
+-- :D I AM FINISHT
+local Intro = Instance.new("ScreenGui")
+local STATUS = Instance.new("ImageLabel")
+local TextLabel = Instance.new("TextLabel")
+local TextLabel_2 = Instance.new("TextLabel")
+local Run = Instance.new("ImageLabel")
+local TextLabel_3 = Instance.new("TextLabel")
+local Loading = Instance.new("ImageLabel")
+local TextLabel_4 = Instance.new("TextLabel")
 local FoodMagnet = Instance.new("ScreenGui")
 local DestroyFolder = Instance.new("Folder")
 local Frame = Instance.new("Frame")
@@ -33,8 +34,91 @@ local RebirthFarmToggle = Instance.new("Frame")
 
 --Properties:
 
+Intro.Name = "Intro"
+Intro.Parent = game.Players.LocalPlayer:WaitForChild("PlayerGui")
+
+STATUS.Name = "STATUS"
+STATUS.Parent = Intro
+STATUS.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+STATUS.BackgroundTransparency = 1.000
+STATUS.Position = UDim2.new(0.385937512, 0, 0.444444448, 0)
+STATUS.Size = UDim2.new(0, 438, 0, 100)
+STATUS.Visible = false
+STATUS.Image = "rbxassetid://3570695787"
+STATUS.ImageColor3 = Color3.fromRGB(170, 0, 0)
+STATUS.ScaleType = Enum.ScaleType.Slice
+STATUS.SliceCenter = Rect.new(100, 100, 100, 100)
+STATUS.SliceScale = 0.120
+
+TextLabel.Parent = STATUS
+TextLabel.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel.BackgroundTransparency = 1.000
+TextLabel.Position = UDim2.new(0.180365309, 0, 0.25, 0)
+TextLabel.Size = UDim2.new(0, 200, 0, 50)
+TextLabel.Font = Enum.Font.SourceSans
+TextLabel.Text = "STATUS : "
+TextLabel.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel.TextSize = 40.000
+
+TextLabel_2.Parent = STATUS
+TextLabel_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_2.BackgroundTransparency = 1.000
+TextLabel_2.Position = UDim2.new(0.454337955, 0, 0.249999985, 0)
+TextLabel_2.Size = UDim2.new(0, 200, 0, 50)
+TextLabel_2.Font = Enum.Font.SourceSans
+TextLabel_2.Text = "ONLINE"
+TextLabel_2.TextColor3 = Color3.fromRGB(0, 170, 0)
+TextLabel_2.TextSize = 40.000
+
+Run.Name = "Run"
+Run.Parent = Intro
+Run.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Run.BackgroundTransparency = 1.000
+Run.Position = UDim2.new(0.385937512, 0, 0.444444448, 0)
+Run.Size = UDim2.new(0, 438, 0, 100)
+Run.Visible = false
+Run.Image = "rbxassetid://3570695787"
+Run.ImageColor3 = Color3.fromRGB(170, 0, 0)
+Run.ScaleType = Enum.ScaleType.Slice
+Run.SliceCenter = Rect.new(100, 100, 100, 100)
+Run.SliceScale = 0.120
+
+TextLabel_3.Parent = Run
+TextLabel_3.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_3.BackgroundTransparency = 1.000
+TextLabel_3.Position = UDim2.new(0.271689504, 0, 0.25, 0)
+TextLabel_3.Size = UDim2.new(0, 200, 0, 50)
+TextLabel_3.Font = Enum.Font.SourceSans
+TextLabel_3.Text = "Script RUN"
+TextLabel_3.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel_3.TextSize = 40.000
+
+Loading.Name = "Loading"
+Loading.Parent = Intro
+Loading.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Loading.BackgroundTransparency = 1.000
+Loading.Position = UDim2.new(0.385937512, 0, 0.444444448, 0)
+Loading.Size = UDim2.new(0, 438, 0, 100)
+Loading.Visible = false
+Loading.Image = "rbxassetid://3570695787"
+Loading.ImageColor3 = Color3.fromRGB(170, 0, 0)
+Loading.ScaleType = Enum.ScaleType.Slice
+Loading.SliceCenter = Rect.new(100, 100, 100, 100)
+Loading.SliceScale = 0.120
+
+TextLabel_4.Parent = Loading
+TextLabel_4.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_4.BackgroundTransparency = 1.000
+TextLabel_4.Position = UDim2.new(0.271689504, 0, 0.25, 0)
+TextLabel_4.Size = UDim2.new(0, 200, 0, 50)
+TextLabel_4.Font = Enum.Font.SourceSans
+TextLabel_4.Text = "Loading."
+TextLabel_4.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel_4.TextSize = 40.000
+
 FoodMagnet.Name = "FoodMagnet"
-FoodMagnet.Parent = game.Players.LocalPlayer:WaitForChild("PlayerGui")
+FoodMagnet.Parent = Intro
+FoodMagnet.Enabled = false
 FoodMagnet.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
 FoodMagnet.ResetOnSpawn = false
 
@@ -212,7 +296,57 @@ RebirthFarmToggle.Size = UDim2.new(0, 15, 0, 45)
 
 -- Scripts:
 
-local function QINA_fake_script() -- DestroyFolder.LocalScript 
+local function JZKYV_fake_script() -- STATUS.LocalScript 
+	local script = Instance.new('LocalScript', STATUS)
+
+	print("STATUS : ONLINE")
+	script.Parent.Parent.STATUS.Visible = true
+end
+coroutine.wrap(JZKYV_fake_script)()
+local function LYGCY_fake_script() -- STATUS.LocalScript 
+	local script = Instance.new('LocalScript', STATUS)
+
+	wait(2)
+	script.Parent.Parent.Loading.Visible = true
+	wait(0.001)
+	script.Parent.Parent.STATUS:Destroy()
+end
+coroutine.wrap(LYGCY_fake_script)()
+local function WLGYTCB_fake_script() -- Run.LocalScript 
+	local script = Instance.new('LocalScript', Run)
+
+	wait(9)
+	script.Parent.Parent.Run.Visible = true
+	wait(1.6)
+	script.Parent.Parent.FoodMagnet.Enabled = true
+	wait(0.01)
+	script.Parent.Parent.Run:Destroy()
+end
+coroutine.wrap(WLGYTCB_fake_script)()
+local function KKSJD_fake_script() -- Loading.LocalScript 
+	local script = Instance.new('LocalScript', Loading)
+
+	
+	wait(2)
+	for count = 1, 1 do
+		wait(count)
+		script.Parent.TextLabel.Text = "Loading."
+		wait(count)
+		script.Parent.TextLabel.Text = "Loading.."
+		wait(count)
+		script.Parent.TextLabel.Text = "Loading..."
+		wait(count)
+		script.Parent.TextLabel.Text = "Loading."
+		wait(count)
+		script.Parent.TextLabel.Text = "Loading.."
+		wait(count)
+		script.Parent.TextLabel.Text = "Loading..."
+		wait(1)
+		script.Parent.Parent.Loading:Destroy()
+		end
+end
+coroutine.wrap(KKSJD_fake_script)()
+local function PISX_fake_script() -- DestroyFolder.LocalScript 
 	local script = Instance.new('LocalScript', DestroyFolder)
 
 	local toggle = false -- false is Off; true is On
@@ -236,8 +370,8 @@ local function QINA_fake_script() -- DestroyFolder.LocalScript
 	
 	game.ContextActionService:BindAction("keyPress", onKeyPress, false, Enum.KeyCode.P)
 end
-coroutine.wrap(QINA_fake_script)()
-local function QAMNEOX_fake_script() -- DestroyFolder.LocalScript 
+coroutine.wrap(PISX_fake_script)()
+local function TXSKMZX_fake_script() -- DestroyFolder.LocalScript 
 	local script = Instance.new('LocalScript', DestroyFolder)
 
 	while wait(1) do
@@ -245,8 +379,8 @@ local function QAMNEOX_fake_script() -- DestroyFolder.LocalScript
 		game:GetService("Players").LocalPlayer["Player_Stats"]["Tool_Delay"].Value = 0
 	end
 end
-coroutine.wrap(QAMNEOX_fake_script)()
-local function SYBFWRU_fake_script() -- SuperRebirth.LocalScript 
+coroutine.wrap(TXSKMZX_fake_script)()
+local function YYAOYB_fake_script() -- SuperRebirth.LocalScript 
 	local script = Instance.new('LocalScript', SuperRebirth)
 
 	local char = game.Players.LocalPlayer.Character
@@ -330,8 +464,8 @@ local function SYBFWRU_fake_script() -- SuperRebirth.LocalScript
 		end
 	end
 end
-coroutine.wrap(SYBFWRU_fake_script)()
-local function EXQE_fake_script() -- SuperRebirth.LocalScript 
+coroutine.wrap(YYAOYB_fake_script)()
+local function BTZQ_fake_script() -- SuperRebirth.LocalScript 
 	local script = Instance.new('LocalScript', SuperRebirth)
 
 	getfenv().SuperRebirthToggle2 = true
@@ -355,8 +489,8 @@ local function EXQE_fake_script() -- SuperRebirth.LocalScript
 		end
 	end
 end
-coroutine.wrap(EXQE_fake_script)()
-local function EOBHBJF_fake_script() -- SuperRebirth.LocalScript 
+coroutine.wrap(BTZQ_fake_script)()
+local function ZKJEDV_fake_script() -- SuperRebirth.LocalScript 
 	local script = Instance.new('LocalScript', SuperRebirth)
 
 	while wait() do
@@ -366,8 +500,8 @@ local function EOBHBJF_fake_script() -- SuperRebirth.LocalScript
 		getfenv().EASYPEASYLOL = 99
 		end
 end
-coroutine.wrap(EOBHBJF_fake_script)()
-local function DNOK_fake_script() -- SuperRebirth.LocalScript 
+coroutine.wrap(ZKJEDV_fake_script)()
+local function QVVXM_fake_script() -- SuperRebirth.LocalScript 
 	local script = Instance.new('LocalScript', SuperRebirth)
 
 	getfenv().EASYPEASYLOL = 0
@@ -395,8 +529,8 @@ local function DNOK_fake_script() -- SuperRebirth.LocalScript
 		end
 		end
 end
-coroutine.wrap(DNOK_fake_script)()
-local function FWOL_fake_script() -- GemFarm.LocalScript 
+coroutine.wrap(QVVXM_fake_script)()
+local function NNTZH_fake_script() -- GemFarm.LocalScript 
 	local script = Instance.new('LocalScript', GemFarm)
 
 	local char = game.Players.LocalPlayer.Character
@@ -480,13 +614,13 @@ local function FWOL_fake_script() -- GemFarm.LocalScript
 		end
 	end
 end
-coroutine.wrap(FWOL_fake_script)()
-local function KTENT_fake_script() -- FoodFarm.LocalScript 
+coroutine.wrap(NNTZH_fake_script)()
+local function OXBPIY_fake_script() -- FoodFarm.LocalScript 
 	local script = Instance.new('LocalScript', FoodFarm)
 
 	local char = game.Players.LocalPlayer.Character
 	local cPos = char.HumanoidRootPart.Position
-	local dPos = cPos.Z + 2
+	local dPos = cPos.Z + 5
 	
 	getfenv().FoodFarmToggle = true
 	
@@ -525,8 +659,8 @@ local function KTENT_fake_script() -- FoodFarm.LocalScript
 		end
 	end
 end
-coroutine.wrap(KTENT_fake_script)()
-local function PTJC_fake_script() -- CashFarm.LocalScript 
+coroutine.wrap(OXBPIY_fake_script)()
+local function FXTXYXJ_fake_script() -- CashFarm.LocalScript 
 	local script = Instance.new('LocalScript', CashFarm)
 
 	local char = game.Players.LocalPlayer.Character
@@ -586,8 +720,8 @@ local function PTJC_fake_script() -- CashFarm.LocalScript
 		end
 	end
 end
-coroutine.wrap(PTJC_fake_script)()
-local function ULNQW_fake_script() -- AutoUpgradeToken.LocalScript 
+coroutine.wrap(FXTXYXJ_fake_script)()
+local function NWOLHC_fake_script() -- AutoUpgradeToken.LocalScript 
 	local script = Instance.new('LocalScript', AutoUpgradeToken)
 
 	getfenv().AutoTokenUpgrade = true
@@ -616,8 +750,8 @@ local function ULNQW_fake_script() -- AutoUpgradeToken.LocalScript
 		end
 	end
 end
-coroutine.wrap(ULNQW_fake_script)()
-local function JNSIZRF_fake_script() -- AutoSuperExchange.LocalScript 
+coroutine.wrap(NWOLHC_fake_script)()
+local function KSMN_fake_script() -- AutoSuperExchange.LocalScript 
 	local script = Instance.new('LocalScript', AutoSuperExchange)
 
 	getfenv().AutoSuperExchange = true
@@ -646,16 +780,16 @@ local function JNSIZRF_fake_script() -- AutoSuperExchange.LocalScript
 		end
 	end
 end
-coroutine.wrap(JNSIZRF_fake_script)()
-local function UGFGCGT_fake_script() -- DestroyFolder.LocalScript 
+coroutine.wrap(KSMN_fake_script)()
+local function PKMFKKU_fake_script() -- DestroyFolder.LocalScript 
 	local script = Instance.new('LocalScript', DestroyFolder)
 
 	while wait() do
 		game:GetService("Players").LocalPlayer.PlayerGui.UI["Error_Frame"].Visible = false
 	end
 end
-coroutine.wrap(UGFGCGT_fake_script)()
-local function NQDPF_fake_script() -- AntiAFK.LocalScript 
+coroutine.wrap(PKMFKKU_fake_script)()
+local function REWHSZ_fake_script() -- AntiAFK.LocalScript 
 	local script = Instance.new('LocalScript', AntiAFK)
 
 		getfenv().AntiAFKToggle = true
@@ -686,16 +820,16 @@ local function NQDPF_fake_script() -- AntiAFK.LocalScript
 		end
 	end
 end
-coroutine.wrap(NQDPF_fake_script)()
-local function QMDI_fake_script() -- Close.LocalScript 
+coroutine.wrap(REWHSZ_fake_script)()
+local function HLPMZVG_fake_script() -- Close.LocalScript 
 	local script = Instance.new('LocalScript', Close)
 
 	Close.MouseButton1Click:Connect(function()
 		DestroyFolder:Destroy()
 	end)
 end
-coroutine.wrap(QMDI_fake_script)()
-local function OTAJVP_fake_script() -- RebirthFarm.LocalScript 
+coroutine.wrap(HLPMZVG_fake_script)()
+local function ADTE_fake_script() -- RebirthFarm.LocalScript 
 	local script = Instance.new('LocalScript', RebirthFarm)
 
 	local char = game.Players.LocalPlayer.Character
@@ -769,5 +903,5 @@ local function OTAJVP_fake_script() -- RebirthFarm.LocalScript
 		end
 	end
 end
-coroutine.wrap(OTAJVP_fake_script)()
+coroutine.wrap(ADTE_fake_script)()
 end
