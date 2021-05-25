@@ -36,6 +36,7 @@ local RebirthFarmToggle = Instance.new("Frame")
 
 Intro.Name = "Intro"
 Intro.Parent = game.Players.LocalPlayer:WaitForChild("PlayerGui")
+Intro.ResetOnSpawn = false
 
 STATUS.Name = "STATUS"
 STATUS.Parent = Intro
